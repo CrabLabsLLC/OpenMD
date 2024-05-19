@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LMG2100")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/LMG2100.kicad_sym")(options "")(descr ""))
+  (lib (name "LM5168FDDAR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/LM5168FDDAR.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP51810AMNTWG")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/NCP51810AMNTWG.kicad_sym")(options "")(descr ""))
+  (lib (name "uP1996")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/2024-04-20_02-59-35.kicad_sym")(options "")(descr ""))
+  (lib (name "EPC_FETs")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/EPC_FETs.kicad_sym")(options "")(descr ""))
+  (lib (name "MP9485GN-Z")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/MP9485GN-Z.kicad_sym")(options "")(descr ""))
+)

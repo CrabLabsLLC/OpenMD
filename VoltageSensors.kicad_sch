@@ -1,0 +1,645 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a4b99392-7845-4426-9466-d2cc85b70160")
+	(paper "A5")
+	(title_block
+		(title "Phase Voltage Sensors")
+		(date "2024-05-19")
+		(rev "1")
+		(company "Crab Labs")
+		(comment 1 "Author: Orion Serup")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 68.58 36.83)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ec4124-a1b0-4fea-9bcd-1781880f5670")
+	)
+	(bus_entry
+		(at 68.58 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e98667-95dd-4b31-a9dd-ffb9871ca4a9")
+	)
+	(bus_entry
+		(at 68.58 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c4eb24-e6b4-4a60-b0cb-c948c6c067aa")
+	)
+	(bus_entry
+		(at 133.35 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9885f2cd-e045-4042-aea4-b13b27937455")
+	)
+	(bus_entry
+		(at 133.35 38.1)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5ada21-de67-41cc-8b0a-e1af44776bb2")
+	)
+	(bus_entry
+		(at 133.35 60.96)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe1c584-a869-44fa-8b7a-725ddceca8ec")
+	)
+	(bus
+		(pts
+			(xy 133.35 38.1) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a627aa8-4988-4c84-a500-7f4373738107")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 92.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c85865-5bb0-4298-9ddc-0d516404850a")
+	)
+	(bus
+		(pts
+			(xy 68.58 60.96) (xy 68.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2662b2bb-268a-490e-a352-e07fa76efdd7")
+	)
+	(bus
+		(pts
+			(xy 68.58 33.02) (xy 68.58 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f26b35-2692-4ee8-aed8-a2323a860606")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 130.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47827d68-f6a0-4521-a595-fc070e60de3a")
+	)
+	(wire
+		(pts
+			(xy 71.12 39.37) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cebb7a1-6eba-4c68-bd6b-7b4c6ee75606")
+	)
+	(bus
+		(pts
+			(xy 67.31 31.75) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712169f9-b50e-44e1-8d8b-90cf79b9ef0a")
+	)
+	(bus
+		(pts
+			(xy 133.35 60.96) (xy 133.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ef800e-7c2c-4aef-aebc-8a6cf50cb564")
+	)
+	(bus
+		(pts
+			(xy 135.89 34.29) (xy 133.35 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e5558b-a4ff-4fe3-95bc-1f229fdf0d29")
+	)
+	(wire
+		(pts
+			(xy 71.12 87.63) (xy 92.71 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84299d3c-3cc9-42df-bb63-8a4ec4a2ceea")
+	)
+	(bus
+		(pts
+			(xy 68.58 36.83) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6c0249-b3b9-40eb-8d4a-4fc8814c0397")
+	)
+	(wire
+		(pts
+			(xy 114.3 63.5) (xy 130.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c1655a-5fa6-4c9e-8a4e-54e68f767657")
+	)
+	(bus
+		(pts
+			(xy 133.35 85.09) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6381fa-9cd4-4423-9fcc-4731c0e06e0d")
+	)
+	(bus
+		(pts
+			(xy 133.35 36.83) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca86fc77-5dfe-4f22-aebe-c605d4332231")
+	)
+	(wire
+		(pts
+			(xy 114.3 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dd7ba8-5c1d-4d35-88e3-aadd4c8a391f")
+	)
+	(bus
+		(pts
+			(xy 139.7 34.29) (xy 135.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0bae78-932b-452b-aec9-cd5857f45899")
+	)
+	(bus
+		(pts
+			(xy 63.5 31.75) (xy 67.31 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed97460c-8a1b-4c01-bbe9-59ed1192747a")
+	)
+	(bus
+		(pts
+			(xy 68.58 85.09) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94ff32c-d458-484b-b04f-b3d20c0a20bd")
+	)
+	(label "V.C"
+		(at 82.55 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "237938a4-bb7e-43e4-80cf-d518ccee30a3")
+	)
+	(label "SENSE.C"
+		(at 119.38 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d54fb1b-46af-4bdb-9afb-d072e50b9ff3")
+	)
+	(label "SENSE.B"
+		(at 118.11 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5eae1340-b1e1-4581-9bbc-1d4cccd7afb6")
+	)
+	(label "V.A"
+		(at 85.09 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67c8b649-ce0f-4c75-89a9-9ba86b29496d")
+	)
+	(label "V.B"
+		(at 85.09 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fa9696f-b735-41cc-857f-a3e64a34447a")
+	)
+	(label "SENSE.A"
+		(at 118.11 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f1ecd56-5129-488b-a7b1-a66e9cdaae64")
+	)
+	(hierarchical_label "V_{DDA}"
+		(shape input)
+		(at 92.71 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f05e30d-1226-4950-af63-58d62ee110a1")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 92.71 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17726cce-418e-4f62-9d26-24261158f67e")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 92.71 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "486e3ac6-e6da-480a-9110-5ca76e1a8581")
+	)
+	(hierarchical_label "V{PHASES}"
+		(shape input)
+		(at 63.5 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56afc808-d498-4952-84bc-542217406daf")
+	)
+	(hierarchical_label "V_{DDA}"
+		(shape input)
+		(at 92.71 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6349c686-4a50-4429-9f4e-f8c6d8625f4e")
+	)
+	(hierarchical_label "V_{DDA}"
+		(shape input)
+		(at 92.71 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a83c1ea-0dc4-4986-a806-7f7474d7da19")
+	)
+	(hierarchical_label "SENSE{PHASES}"
+		(shape output)
+		(at 139.7 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "894b38bd-98bf-4397-9bb4-562abb480503")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 92.71 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b30ba995-7a63-4c21-80f5-d1ea3eabf061")
+	)
+	(sheet
+		(at 92.71 31.115)
+		(size 21.59 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7793b2c-5c54-4f50-a4d7-e60043653920")
+		(property "Sheetname" "Voltage Sensor A"
+			(at 92.71 30.4034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VSense.kicad_sch"
+			(at 92.71 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 92.71 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd724e4b-9947-4843-b57d-9062eff3b64d")
+		)
+		(pin "GND" passive
+			(at 92.71 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bd51db1-ce29-43f4-8b61-37fc652972f6")
+		)
+		(pin "V_{DDA}" input
+			(at 92.71 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "777739ee-6977-4dbc-947f-c0ead8ccdf1f")
+		)
+		(pin "SENSE" output
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "253058d0-0c96-4cef-b8cf-8ce5ef3009bd")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/ddd0610c-766f-4161-94e0-98487dc7ad2a"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 55.245)
+		(size 21.59 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be2a6f5d-9678-4621-a5d6-7491b641abef")
+		(property "Sheetname" "Voltage Sensor B"
+			(at 92.71 54.5334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VSense.kicad_sch"
+			(at 92.71 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 92.71 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36b63434-e9c0-4d7a-9f64-9a052b2b7dc6")
+		)
+		(pin "GND" passive
+			(at 92.71 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "107f3676-63b3-4b0b-a010-3ccf7d2265f2")
+		)
+		(pin "SENSE" output
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2581d15-c9bc-4b91-9ed4-dee8efe30628")
+		)
+		(pin "V_{DDA}" input
+			(at 92.71 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3feee933-64a3-4645-bd0b-3658103cfa35")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/ddd0610c-766f-4161-94e0-98487dc7ad2a"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 79.375)
+		(size 21.59 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6159557-c199-4d47-9ba8-4e7420dc0287")
+		(property "Sheetname" "Voltage Sensor C"
+			(at 92.71 78.6634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VSense.kicad_sch"
+			(at 92.71 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 92.71 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b8b1ac8-9e0a-4a9a-acdb-31eb6ee290a5")
+		)
+		(pin "GND" passive
+			(at 92.71 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0041449-a13a-46df-97f2-07b63a8eccc1")
+		)
+		(pin "SENSE" output
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6049161e-3d52-404e-a932-abae1523dc7a")
+		)
+		(pin "V_{DDA}" input
+			(at 92.71 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9795cf5b-faee-49ac-86ff-23ad30eafcf1")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/ddd0610c-766f-4161-94e0-98487dc7ad2a"
+					(page "15")
+				)
+			)
+		)
+	)
+)
