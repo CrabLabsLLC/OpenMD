@@ -3,3 +3,4 @@ fp-info-cache
 *.lck
 *autosave*
 *.kicad_prl
+*.FCStd*

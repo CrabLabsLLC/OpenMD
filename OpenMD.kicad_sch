@@ -3103,6 +3103,7 @@
 	)
 	(label "DRV_I_SENSE.C"
 		(at 346.71 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,6 +3147,7 @@
 	)
 	(label "INPUT.BL"
 		(at 101.6 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3156,6 +3158,7 @@
 	)
 	(label "DRV_I_SENSE.B"
 		(at 346.71 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,6 +3180,7 @@
 	)
 	(label "HALL.C"
 		(at 101.6 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3220,6 +3224,7 @@
 	)
 	(label "I_SENSE.A"
 		(at 346.71 161.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3230,6 +3235,7 @@
 	)
 	(label "INPUT.BH"
 		(at 101.6 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3240,6 +3246,7 @@
 	)
 	(label "V_SENSE.B"
 		(at 346.71 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3261,6 +3268,7 @@
 	)
 	(label "INPUT.CL"
 		(at 101.6 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3271,6 +3279,7 @@
 	)
 	(label "INPUT.CH"
 		(at 101.6 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3281,6 +3290,7 @@
 	)
 	(label "INPUT.AH"
 		(at 101.6 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3291,6 +3301,7 @@
 	)
 	(label "V_SENSE.C"
 		(at 346.71 173.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3312,6 +3323,7 @@
 	)
 	(label "DRV_I_SENSE.A"
 		(at 346.71 176.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3322,6 +3334,7 @@
 	)
 	(label "HALL.B"
 		(at 101.6 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3332,6 +3345,7 @@
 	)
 	(label "HALL.A"
 		(at 101.6 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3342,6 +3356,7 @@
 	)
 	(label "HALL.A"
 		(at 101.6 167.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3352,6 +3367,7 @@
 	)
 	(label "V_SENSE.A"
 		(at 346.71 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3362,6 +3378,7 @@
 	)
 	(label "I_SENSE.C"
 		(at 346.71 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3372,6 +3389,7 @@
 	)
 	(label "INPUT.AL"
 		(at 101.6 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3382,6 +3400,7 @@
 	)
 	(label "HALL.C"
 		(at 101.6 172.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3392,6 +3411,7 @@
 	)
 	(label "I_SENSE.B"
 		(at 346.71 163.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3402,6 +3422,7 @@
 	)
 	(label "HALL.B"
 		(at 101.6 170.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3832,6 +3853,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 93.98 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9b4e625-5ac6-4d12-9f3c-ce306c6ea799")
 		)
@@ -3891,6 +3921,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 325.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 325.12 48.26 0)
 			(effects
 				(font
@@ -3966,6 +4005,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 93.98 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "OpenMD"
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
@@ -4021,6 +4069,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 93.98 72.39 0)
 			(effects
 				(font
@@ -4088,6 +4145,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 95.25 167.64 0)
 			(effects
 				(font
@@ -4180,6 +4246,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 351.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0b6857e-1028-4f5c-9f36-80f8555886fb")
 		)
@@ -4239,6 +4314,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 332.74 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 332.74 212.09 0)
 			(effects
 				(font
@@ -4314,6 +4398,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 311.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "OpenMD"
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
@@ -4370,6 +4463,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 325.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 325.12 60.96 0)
 			(effects
 				(font
@@ -4442,6 +4544,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 107.95 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "OpenMD"
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
@@ -4497,6 +4608,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 354.33 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 354.33 171.45 0)
 			(effects
 				(font
@@ -4608,6 +4728,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 332.74 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "OpenMD"
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
@@ -4664,6 +4793,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 318.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 318.77 203.2 0)
 			(effects
 				(font
@@ -4735,6 +4873,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9afcd980-43dd-4496-b603-d2d28efe7e9b")
 		)
@@ -4794,6 +4941,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 95.25 109.22 0)
 			(effects
 				(font
@@ -4904,6 +5060,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 93.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "094f160e-c26a-46d4-b3e2-c9133fd459d3")
 		)
@@ -4971,6 +5136,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd923219-b0f8-4ffb-9327-dd125caca9ec")
 		)
@@ -5029,6 +5203,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 351.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 351.79 113.03 0)
 			(effects
 				(font

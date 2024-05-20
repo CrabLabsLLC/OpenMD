@@ -1517,6 +1517,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "4W"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35b3feec-ecb8-4e9c-9ca2-9680291d7df9")
 		)
@@ -1587,6 +1596,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "4W"
 			(at 106.68 85.09 0)
 			(effects
 				(font
@@ -1670,6 +1688,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Rating" ""
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -1768,6 +1795,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "3A"
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S3BB"
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f9d87ed-a7e0-492e-94dd-b354f342559d")
 		)
@@ -1838,6 +1883,24 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "3A"
+			(at 132.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S3BB"
 			(at 132.08 48.26 0)
 			(effects
 				(font
@@ -1924,6 +1987,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "331e9b60-f85f-43be-a488-302485fe1d5f")
 		)
@@ -2000,6 +2072,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Rating" ""
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -2098,6 +2179,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HHV1206R7475K101NSPJ"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "852aee10-4727-41e5-af84-92e572bb0cc5")
 		)
@@ -2168,6 +2267,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HHV1206R7475K101NSPJ"
 			(at 64.77 58.42 0)
 			(effects
 				(font

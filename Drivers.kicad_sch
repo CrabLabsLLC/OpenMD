@@ -3213,6 +3213,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 118.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 118.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "16059cc2-fd57-4677-a812-a1bbac78961b")
 		)
@@ -3275,6 +3293,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 55.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 55.88 127 0)
 			(effects
 				(font
@@ -3353,6 +3389,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 68.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 68.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20a8343f-7e6d-41c7-9612-ab1060bebaf3")
 		)
@@ -3415,6 +3469,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 105.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 105.41 100.33 0)
 			(effects
 				(font
@@ -3493,6 +3565,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b8f7b8be-9ff9-45b2-ba3c-eda3274c5db4")
 		)
@@ -3555,6 +3645,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 129.54 127 0)
 			(effects
 				(font
@@ -3633,6 +3741,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 92.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 92.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b0de9a70-bd9e-4fc6-b67d-17e8d3d035ff")
 		)
@@ -3695,6 +3821,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 142.24 100.33 0)
 			(effects
 				(font
@@ -3773,6 +3917,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4cb37fb2-c009-4fae-8358-ad54d934b4f4")
 		)
@@ -3835,6 +3997,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 92.71 156.21 0)
 			(effects
 				(font
@@ -3913,6 +4093,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "854f74e9-a4c3-4189-8b34-338440fb885b")
 		)
@@ -3975,6 +4173,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 105.41 71.12 0)
 			(effects
 				(font
@@ -4053,6 +4269,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 118.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 118.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1cdc2a0-0583-46c8-94df-be080b65499a")
 		)
@@ -4115,6 +4349,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -4193,6 +4445,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58532525-ce10-4b53-8dc8-c916db454b56")
 		)
@@ -4255,6 +4525,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -4333,6 +4621,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d88077c6-d267-4380-9994-9d7f3b258cae")
 		)
@@ -4395,6 +4701,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 55.88 100.33 0)
 			(effects
 				(font
@@ -4473,6 +4797,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc8e90cc-c695-4552-a6dd-bacda2297d01")
 		)
@@ -4535,6 +4877,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 68.58 41.91 0)
 			(effects
 				(font
@@ -4613,6 +4973,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d1f2497-0db7-4112-a905-91ba643c4a07")
 		)
@@ -4675,6 +5053,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 154.94 41.91 0)
 			(effects
 				(font
@@ -4753,6 +5149,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7320770a-0ded-4417-b946-c34732966edb")
 		)
@@ -4815,6 +5229,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 68.58 127 0)
 			(effects
 				(font
@@ -4893,6 +5325,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11f8dac8-e624-49df-b21a-21d0ee3aaa53")
 		)
@@ -4955,6 +5405,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 129.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 129.54 41.91 0)
 			(effects
 				(font
@@ -5033,6 +5501,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "119e4995-a7b1-456b-bd70-b178a3c3cba9")
 		)
@@ -5095,6 +5581,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 68.58 100.33 0)
 			(effects
 				(font
@@ -5173,6 +5677,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0997d88a-b76b-4b65-b0b9-fe04026ac648")
 		)
@@ -5235,6 +5757,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 80.01 156.21 0)
 			(effects
 				(font
@@ -5313,6 +5853,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4fbc5955-6563-43c4-b9f5-f1e4f8adab09")
 		)
@@ -5375,6 +5933,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 80.01 100.33 0)
 			(effects
 				(font
@@ -5453,6 +6029,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a65b9b4a-47a2-401b-84b6-caf94044f835")
 		)
@@ -5515,6 +6109,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 55.88 41.91 0)
 			(effects
 				(font
@@ -5593,6 +6205,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d59c765c-26ad-460b-8f53-69488a78d3ba")
 		)
@@ -5655,6 +6285,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 80.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 80.01 127 0)
 			(effects
 				(font
@@ -5733,6 +6381,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a943a324-416e-49cf-8e70-7ba4a17f4c4e")
 		)
@@ -5795,6 +6461,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 92.71 71.12 0)
 			(effects
 				(font
@@ -5873,6 +6557,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83a30707-bfd6-4bbf-9a3b-7ac925a57d54")
 		)
@@ -5943,6 +6645,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 142.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "34e4bbd6-db16-43e1-bc43-b296a368390c")
 		)
@@ -6005,6 +6725,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 55.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
 			(at 55.88 156.21 0)
 			(effects
 				(font

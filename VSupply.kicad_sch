@@ -1604,6 +1604,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "1A"
+			(at 119.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "913816c3-059c-4863-98f4-cfbd2ca7ab8e")
 		)
@@ -1666,6 +1675,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 71.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
 			(at 71.12 67.31 0)
 			(effects
 				(font
@@ -1744,6 +1762,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "6.3V"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed7bd6da-1b41-4d0e-9fff-3802933ba48e")
 		)
@@ -1814,6 +1841,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0597131a-bf58-4e2a-9163-8a165aa78293")
 		)
@@ -1848,7 +1884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.1V"
+		(property "Value" "1V"
 			(at 111.76 69.5324 90)
 			(effects
 				(font
@@ -1876,6 +1912,24 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "2A"
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAV21W-AU_R1_000A1"
 			(at 109.22 68.58 0)
 			(effects
 				(font
@@ -1954,6 +2008,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 140.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9bb16151-d7f4-4901-a10d-1ca48145f327")
 		)
@@ -2016,6 +2079,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -2094,6 +2166,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "6.3V"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d2a2104-8fce-417b-9e34-3c9d0087a077")
 		)
@@ -2156,6 +2237,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -2234,6 +2324,24 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 41.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X106K101EGG"
+			(at 41.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93721c68-5075-4543-a54f-b7e181352401")
 		)
@@ -2304,46 +2412,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.7"
-			(at 99.06 449.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "946-MP9485GN-Z"
-			(at 99.06 549.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP9485GN-Z?qs=YCa%2FAAYMW020XV52pqttNg%3D%3D"
-			(at 99.06 649.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Monolithic Power Systems (MPS)"
-			(at 99.06 749.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "MP9485GN-Z"
 			(at 99.06 849.53 0)
 			(effects
@@ -2351,6 +2419,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -1255,6 +1255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "6.3V"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83478e9d-1385-4eaf-a95f-168300cc0a0e")
 		)
@@ -1330,6 +1339,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "970ab5c9-206f-4811-9924-c5cd0efc7d58")
 		)
@@ -1397,6 +1415,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "5V"
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -1482,6 +1509,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36fad771-721e-4b90-8888-fde83254364f")
 		)
@@ -1549,6 +1585,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -1635,6 +1680,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f70b087-1ee2-42d1-b6d2-72170331ba51")
 		)
@@ -1703,6 +1757,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "6W"
 			(at 106.68 40.64 0)
 			(effects
 				(font
@@ -1789,6 +1852,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b4f5c6c-0b50-4d3c-80c2-aa82acded879")
 		)
@@ -1857,6 +1929,15 @@
 			)
 		)
 		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOT-23-8"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 106.68 81.28 0)
 			(effects
 				(font

@@ -2339,6 +2339,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fede2478-eb97-431b-b641-a8fbdc5e2403")
 		)
@@ -2399,6 +2408,15 @@
 			)
 		)
 		(property "Description" "Quad Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, LFCSP-16"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -2512,6 +2530,15 @@
 			)
 		)
 		(property "Description" "Quad Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, LFCSP-16"
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 149.86 129.54 0)
 			(effects
 				(font
@@ -2635,6 +2662,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "5V"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b4282e9-23f4-4118-a21a-b23c4da4887d")
 		)
@@ -2697,6 +2733,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "6.3V"
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -2775,6 +2820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 125.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db8714ec-6b9d-4810-b316-43bfcde6cd1b")
 		)
@@ -2837,6 +2891,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 52.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
 			(at 52.07 109.22 0)
 			(effects
 				(font
@@ -2915,6 +2978,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f5cf98f-b134-440e-b87c-2db6e046b63a")
 		)
@@ -2977,6 +3049,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 148.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
 			(at 148.59 109.22 0)
 			(effects
 				(font
@@ -3055,6 +3136,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f2810a4d-5448-41e1-ba0a-efc3ac3bb818")
 		)
@@ -3117,6 +3207,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -3195,6 +3294,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "264de4d7-87d6-4b2d-9673-c6c91b64e367")
 		)
@@ -3265,6 +3373,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100V"
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91e2d6d2-6bc6-413a-87fa-654eecff7330")
 		)
@@ -3325,6 +3442,15 @@
 			)
 		)
 		(property "Description" "Quad Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, LFCSP-16"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 147.32 67.31 0)
 			(effects
 				(font
@@ -3448,6 +3574,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "23f477b5-6d63-40ec-8ecb-680d88cbe056")
 		)
@@ -3563,6 +3698,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "85c0ab7d-ba31-496d-9951-5164002a5886")
 		)
@@ -3625,6 +3769,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "5V"
 			(at 59.69 118.11 0)
 			(effects
 				(font
@@ -3703,6 +3856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 128.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2166da14-b240-47dc-8fef-399b792d792e")
 		)
@@ -3765,6 +3927,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -3843,6 +4014,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35d5a408-643e-4a9f-9118-881362aba974")
 		)
@@ -3905,6 +4085,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -3983,6 +4172,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "5V"
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "114bb817-52b8-48bf-aa84-16d958f1ef7e")
 		)
@@ -4053,6 +4251,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db8852bf-bdbc-4ced-8f60-f936682533a9")
 		)
@@ -4113,6 +4320,15 @@
 			)
 		)
 		(property "Description" "Quad Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, LFCSP-16"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
 			(at 80.01 116.84 0)
 			(effects
 				(font
@@ -4236,6 +4452,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a0638576-226b-43ee-a736-a072ca624776")
 		)
@@ -4298,6 +4523,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "5V"
 			(at 134.62 129.54 0)
 			(effects
 				(font

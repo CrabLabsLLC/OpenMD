@@ -726,7 +726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -745,6 +745,15 @@
 			)
 		)
 		(property "Description" "Zener diode, filled shape"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "1A"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -831,6 +840,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "5V"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3b935e8-fa0c-4bbf-b57c-21cf64840c63")
 		)
@@ -909,6 +927,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "100mW"
+			(at 87.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72208357-757f-400d-b9f8-ac62a34dbab2")
 		)
@@ -979,6 +1006,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
 			(at 87.63 54.61 0)
 			(effects
 				(font
