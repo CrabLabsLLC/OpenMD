@@ -4605,7 +4605,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 0 0 0.1490)
 		)
 		(uuid "07d8e3c8-2c5e-419f-819c-6988329b3b9b")
 		(property "Sheetname" "Phase Driver C"
@@ -4693,7 +4693,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 0 0 0.1490)
 		)
 		(uuid "4edcb8de-5dec-41d2-8d5a-0d6ba6532a85")
 		(property "Sheetname" "Phase Driver A"
@@ -4781,7 +4781,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 0 0 0.1490)
 		)
 		(uuid "9c8d7367-e82c-4c6d-94fe-186e886bc1c0")
 		(property "Sheetname" "Phase Driver B"

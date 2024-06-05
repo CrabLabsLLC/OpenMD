@@ -4,3 +4,8 @@ fp-info-cache
 *autosave*
 *.kicad_prl
 *.FCStd*
+*.json
+*.zip
+*.ipc
+*.csv
+#auto_saved_files#

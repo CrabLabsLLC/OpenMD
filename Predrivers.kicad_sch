@@ -810,7 +810,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 247 255 0.1490)
 		)
 		(uuid "c2de4369-e1cf-48b7-9260-54fc6f5ddd69")
 		(property "Sheetname" "Gate Driver B"
@@ -918,7 +918,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 247 255 0.1500)
 		)
 		(uuid "cbf4e12a-3fd7-44b5-8509-c83b124ff905")
 		(property "Sheetname" "Gate Driver A"
@@ -1026,7 +1026,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 247 255 0.1490)
 		)
 		(uuid "e841f064-3f02-4c16-b30e-9ec0b7ba7273")
 		(property "Sheetname" "Gate Driver C"

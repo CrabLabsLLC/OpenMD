@@ -957,7 +957,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 55.88) (xy 182.88 55.88)
+			(xy 176.53 55.88) (xy 186.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1307,7 +1307,7 @@
 	)
 	(rectangle
 		(start 171.45 34.29)
-		(end 181.61 54.61)
+		(end 185.42 76.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -1317,7 +1317,43 @@
 		)
 		(uuid 4a529fae-e4a4-4d71-9c0c-1dde97cec2f5)
 	)
-	(text "0-100V 0-60A"
+	(rectangle
+		(start 58.42 36.83)
+		(end 97.155 85.09)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b62f277-ae87-4f7c-abdb-0453d147dd3b)
+	)
+	(rectangle
+		(start 97.155 36.83)
+		(end 133.35 85.09)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d73e1280-be6e-4652-a02c-3a2236452f5c)
+	)
+	(rectangle
+		(start 31.75 36.83)
+		(end 58.42 85.09)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da0e710f-d3d6-4d47-803a-a3d9bd000cc8)
+	)
+	(text "0-80V 0-60A"
 		(exclude_from_sim no)
 		(at 74.422 32.258 0)
 		(effects
@@ -1327,7 +1363,37 @@
 		)
 		(uuid "5dd8abd8-51c9-464b-8fda-b96dc2e97d20")
 	)
-	(text "Flyback Diode"
+	(text "Medium Frequency Caps"
+		(exclude_from_sim no)
+		(at 76.454 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77887a3a-9f70-457d-acfb-a3537fa11010")
+	)
+	(text "High Frequency Caps"
+		(exclude_from_sim no)
+		(at 113.03 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c7efafe-2b1b-48ba-92c5-c11b7919680a")
+	)
+	(text "Low Frequency Caps"
+		(exclude_from_sim no)
+		(at 45.72 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ab10d86-95fa-4d7a-b64a-7653716b9ad8")
+	)
+	(text "Flyback Diodes"
 		(exclude_from_sim no)
 		(at 171.196 32.258 0)
 		(effects
@@ -1351,7 +1417,7 @@
 	)
 	(hierarchical_label "PHASE"
 		(shape bidirectional)
-		(at 182.88 55.88 0)
+		(at 186.69 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1593,7 +1659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 V 60A 3.2mE"
+		(property "Description" "80 V 60A 3.2mE"
 			(at 151.13 48.006 0)
 			(effects
 				(font
@@ -2241,7 +2307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 V 60A 3.2mE"
+		(property "Description" "80 V 60A 3.2mE"
 			(at 151.13 69.8499 0)
 			(effects
 				(font

@@ -1111,6 +1111,16 @@
 		)
 		(uuid "64fba8a4-b833-4b99-98fb-38c47ebdaf3a")
 	)
+	(text "0-80V"
+		(exclude_from_sim no)
+		(at 67.056 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9dbb25a-fbfd-47d2-b59a-baf812680d84")
+	)
 	(label "SW"
 		(at 90.17 69.85 0)
 		(fields_autoplaced yes)

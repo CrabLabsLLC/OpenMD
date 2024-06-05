@@ -1294,7 +1294,7 @@
 		)
 		(uuid "5038e25d-5955-44c7-991f-2eaba86ac43b")
 	)
-	(text "1/25 Resistor Voltage Divider\n"
+	(text "1/31 Resitor Voltage Divider\n"
 		(exclude_from_sim no)
 		(at 108.966 69.85 0)
 		(effects
@@ -1304,9 +1304,9 @@
 		)
 		(uuid "ce4d326f-bb82-4432-8cde-1754694246aa")
 	)
-	(text "V_{SENSE} = V_{PHASE} / 25"
+	(text "V_{SENSE} = V_{PHASE} / 31"
 		(exclude_from_sim no)
-		(at 176.53 51.054 0)
+		(at 170.434 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1762,7 +1762,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "300k"
 			(at 133.35 123.1899 0)
 			(effects
 				(font
@@ -1859,7 +1859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "300k"
 			(at 133.35 88.8999 0)
 			(effects
 				(font
@@ -1956,7 +1956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "240k"
+		(property "Value" "300k"
 			(at 133.35 53.3399 0)
 			(effects
 				(font
