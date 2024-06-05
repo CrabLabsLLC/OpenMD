@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Crab Labs")
 		(comment 1 "Author: Orion Serup")
+		(comment 2 "License: CERN-OHL-W-2.0")
 	)
 	(lib_symbols)
 	(bus_entry

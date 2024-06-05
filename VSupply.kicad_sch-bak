@@ -1101,16 +1101,6 @@
 		)
 		(uuid "f468fd17-6792-40bb-909b-053dc949f26a")
 	)
-	(text "5V 500 mA"
-		(exclude_from_sim no)
-		(at 140.716 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64fba8a4-b833-4b99-98fb-38c47ebdaf3a")
-	)
 	(label "SW"
 		(at 90.17 69.85 0)
 		(fields_autoplaced yes)
@@ -1260,8 +1250,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RAA2118054GP3#JA0"
-			(at 95.25 852.07 0)
+		(property "Height" "1.1"
+			(at 95.25 452.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,12 +1260,43 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "Digikey"
-			(at 119.38 57.15 0)
+		(property "Mouser Part Number" ""
+			(at 95.25 552.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 95.25 652.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Renesas Electronics"
+			(at 95.25 752.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RAA2118054GP3#JA0"
+			(at 95.25 852.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -1367,24 +1388,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "HHV0805R7105K101NSLJ"
-			(at 62.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 62.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b539331e-0a3c-4b89-8412-be9d437246e5")
 		)
@@ -1425,7 +1428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Abracon_ASPI-3012S"
+		(property "Footprint" "Inductor_SMD:L_Abracon_ASPI-4030S"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -1453,24 +1456,6 @@
 			)
 		)
 		(property "Rating" "1A"
-			(at 104.14 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "Digikey"
-			(at 104.14 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HPC 3012BMV-220M"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -1558,24 +1543,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "V475M0603X5R6R3NDT"
-			(at 147.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 147.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ed7bd6da-1b41-4d0e-9fff-3802933ba48e")
 		)
@@ -1647,24 +1614,6 @@
 			)
 		)
 		(property "Rating" "100V"
-			(at 55.88 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HHV0805R7105K101NSLJ"
-			(at 55.88 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
 			(at 55.88 64.77 0)
 			(effects
 				(font
@@ -1752,24 +1701,6 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "LCSC"
-			(at 72.39 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CGA0603X7R104K101JT"
-			(at 72.39 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0597131a-bf58-4e2a-9163-8a165aa78293")
 		)
@@ -1804,7 +1735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".85V"
+		(property "Value" "1V"
 			(at 88.9 75.8824 90)
 			(effects
 				(font
@@ -1849,16 +1780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DSK210"
-			(at 86.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
+		(property "Manufacturer_Part_Number" "BAV21W-AU_R1_000A1"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -1946,24 +1868,6 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "LCSC"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CGA0603X7R104K500JT"
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9bb16151-d7f4-4901-a10d-1ca48145f327")
 		)
@@ -2035,24 +1939,6 @@
 			)
 		)
 		(property "Rating" "6.3V"
-			(at 133.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "V475M0603X5R6R3NDT"
-			(at 133.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
 			(at 133.35 68.58 0)
 			(effects
 				(font

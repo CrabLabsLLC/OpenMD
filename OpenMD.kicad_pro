@@ -26,8 +26,8 @@
         },
         "fab_line_width": 0.0508,
         "fab_text_italic": false,
-        "fab_text_size_h": 0.6096,
-        "fab_text_size_v": 0.6096,
+        "fab_text_size_h": 0.508,
+        "fab_text_size_v": 0.508,
         "fab_text_thickness": 0.1016,
         "fab_text_upright": false,
         "other_line_width": 0.1,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.125
+          "min_clearance": 0.1524
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|176017745|120647755|3707e19d-9369-42e3-8bbb-d5bf9b3e5438|092978c4-cc3b-401a-a7b3-d25dd03b537e",
+        "solder_mask_bridge|176125406|120741045|72d2d5ef-780d-4ed1-84d4-8964e6036083|092978c4-cc3b-401a-a7b3-d25dd03b537e",
+        "solder_mask_bridge|98940730|120527916|a1018010-9bb1-4a6c-b4ab-3424277c44e2|092978c4-cc3b-401a-a7b3-d25dd03b537e",
+        "solder_mask_bridge|99017750|119992240|93eea4ad-6ea1-4933-b026-fb8d3f0439c8|092978c4-cc3b-401a-a7b3-d25dd03b537e",
+        "solder_mask_bridge|99395997|84820499|34702c4b-1de6-4b0d-a30e-ac18137d8eee|092978c4-cc3b-401a-a7b3-d25dd03b537e",
+        "solder_mask_bridge|99774254|83992244|edf7ba52-2a7b-4e4c-bd1c-5fb25acbe97c|092978c4-cc3b-401a-a7b3-d25dd03b537e"
+      ],
       "meta": {
         "version": 2
       },
@@ -85,7 +92,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -117,7 +124,7 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.508,
+        "min_copper_edge_clearance": 0.381,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -130,7 +137,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.4064,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -214,10 +221,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.4064,
-          "drill": 0.2032
         },
         {
           "diameter": 0.635,
@@ -562,6 +565,12 @@
       "/Drivers/OUT.A": "Power",
       "/Drivers/OUT.B": "Power",
       "/Drivers/OUT.C": "Power",
+      "/Drivers/Phase Driver A/PHASE": "High Power",
+      "/Drivers/Phase Driver A/V_{DRV}": "High Power",
+      "/Drivers/Phase Driver B/PHASE": "High Power",
+      "/Drivers/Phase Driver B/V_{DRV}": "High Power",
+      "/Drivers/Phase Driver C/PHASE": "High Power",
+      "/Drivers/Phase Driver C/V_{DRV}": "High Power",
       "/Predriver Voltage Supply/SW": "Power",
       "/V_{BATT}": "High Power",
       "/{PHASES}": "High Power",
@@ -588,8 +597,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "fabrication/gerbers/",
+      "pos_files": "fabrication/",
       "specctra_dsn": "",
       "step": "OpenMD.step",
       "svg": "",
@@ -615,18 +624,24 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Rating",
           "name": "Rating",
           "show": true
@@ -638,15 +653,21 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "MPN",
           "name": "Manufacturer_Part_Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Source",
+          "name": "Source",
           "show": true
         },
         {
@@ -663,12 +684,6 @@
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -678,7 +693,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Description"
+      "sort_field": "${DNP}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -769,18 +784,6 @@
       "Gate Driver C"
     ],
     [
-      "a7793b2c-5c54-4f50-a4d7-e60043653920",
-      "Voltage Sensor A"
-    ],
-    [
-      "be2a6f5d-9678-4621-a5d6-7491b641abef",
-      "Voltage Sensor B"
-    ],
-    [
-      "d6159557-c199-4d47-9ba8-4e7420dc0287",
-      "Voltage Sensor C"
-    ],
-    [
       "333c1edc-8103-4690-800d-12fcc828edaf",
       "Current Sense A"
     ],
@@ -791,10 +794,6 @@
     [
       "c7f7d708-2dea-4049-a8c4-f9d7592eff53",
       "Current Sense C"
-    ],
-    [
-      "034220c3-fbed-473c-a48d-17a482c6f6d7",
-      "Driver Current Sensors"
     ]
   ],
   "text_variables": {}

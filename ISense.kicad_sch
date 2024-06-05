@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Crab Labs")
 		(comment 1 "Author: Orion Serup")
+		(comment 2 "License: CERN-OHL-W-2.0")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA241A2xDDF"
@@ -234,6 +235,142 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -695,22 +832,22 @@
 		(uuid "4bf171f8-c3af-474b-b8c8-86abd834d724")
 	)
 	(junction
-		(at 81.28 78.74)
+		(at 82.55 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "61250902-6227-451a-a602-f5594a11f910")
+		(uuid "6aaa6603-c10c-464a-9c7e-35f0db79b9ba")
+	)
+	(junction
+		(at 82.55 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "839fcd53-5e8c-4c97-bcc8-13f1a8c14583")
 	)
 	(junction
 		(at 101.6 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d73748a-458c-4aa4-b374-1417916aec9c")
-	)
-	(junction
-		(at 81.28 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6667bfc-58c7-41ea-bfab-ae20492f5045")
 	)
 	(junction
 		(at 111.76 40.64)
@@ -749,16 +886,6 @@
 			(type default)
 		)
 		(uuid "0dcfec54-deb9-4db4-9d03-8a16be9ed95f")
-	)
-	(wire
-		(pts
-			(xy 81.28 86.36) (xy 81.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f8b12f-12f6-49ad-84e8-51a438fccd74")
 	)
 	(wire
 		(pts
@@ -872,6 +999,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674df33c-4eb5-4171-8ea0-fe5cd8b87868")
+	)
+	(wire
+		(pts
 			(xy 114.3 83.82) (xy 116.84 83.82)
 		)
 		(stroke
@@ -882,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 86.36 92.71)
+			(xy 81.28 92.71) (xy 82.55 92.71)
 		)
 		(stroke
 			(width 0)
@@ -892,13 +1029,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 78.74) (xy 81.28 81.28)
+			(xy 82.55 92.71) (xy 86.36 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86722163-0f10-487e-8e97-6df55167a736")
+		(uuid "9cf28f80-37bc-420d-af25-5944aa090823")
 	)
 	(wire
 		(pts
@@ -912,17 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 92.71) (xy 81.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0eff463-68fa-4d28-8c41-934f0cfedbcb")
-	)
-	(wire
-		(pts
-			(xy 81.28 78.74) (xy 87.63 78.74)
+			(xy 80.01 78.74) (xy 82.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -992,6 +1119,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 88.9) (xy 82.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec72cf1-3b87-4ec0-a62e-4167e804c0be")
+	)
+	(wire
+		(pts
 			(xy 109.22 62.23) (xy 111.76 62.23)
 		)
 		(stroke
@@ -1022,16 +1159,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 78.74) (xy 81.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ac126e-7744-4c8f-80c0-b36e16b53e18")
-	)
-	(wire
-		(pts
 			(xy 104.14 68.58) (xy 104.14 73.66)
 		)
 		(stroke
@@ -1039,6 +1166,16 @@
 			(type default)
 		)
 		(uuid "ed474ea1-5525-4f11-9e3d-ca742d81e5e6")
+	)
+	(wire
+		(pts
+			(xy 82.55 78.74) (xy 82.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebc040d-8ee7-4e20-8e37-2591bc4b3f42")
 	)
 	(wire
 		(pts
@@ -1069,6 +1206,104 @@
 			(type default)
 		)
 		(uuid "f73471b8-a5f0-4323-962f-25090b96ce1a")
+	)
+	(rectangle
+		(start 98.425 32.385)
+		(end 115.57 43.815)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 19bd3b2f-bc80-4b0f-8a2a-9cc2e268f82d)
+	)
+	(rectangle
+		(start 89.535 50.8)
+		(end 104.14 66.04)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f818a92-b52b-45af-ac0d-d25b97affa46)
+	)
+	(rectangle
+		(start 100.33 50.8)
+		(end 113.03 66.04)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f9533bf-f562-4050-8c46-244d74f90b8a)
+	)
+	(rectangle
+		(start 109.855 50.8)
+		(end 123.825 66.04)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d0833570-e9fd-458e-8bae-f111fcb1ce87)
+	)
+	(text "Current Sense Shunt Resistor\n"
+		(exclude_from_sim no)
+		(at 106.68 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02c1b213-6dc6-40e4-b185-d78986d49dbb")
+	)
+	(text "Common Mode Low Pass at 16kHz"
+		(exclude_from_sim no)
+		(at 132.334 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30d72024-e99b-4bc3-80b8-7a5d9e70cb8e")
+	)
+	(text "Differential Low Pass at 800 kHz"
+		(exclude_from_sim no)
+		(at 94.234 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b6fb032-153a-42bf-b7b1-7c5cfd80726b")
+	)
+	(text "V_{SENSE} = V_{DDA}/2 + I_{SHUNT} * .025"
+		(exclude_from_sim no)
+		(at 149.098 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80172590-5152-45bd-86dc-f17d53862f02")
+	)
+	(text "I_{MAX} = 66A, I_{MIN} = -66A, V_{DDA} = 3.3V"
+		(exclude_from_sim no)
+		(at 146.304 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1aee776-1300-4be1-88e3-9cc31882dd59")
 	)
 	(label "V-"
 		(at 109.22 68.58 0)
@@ -1106,7 +1341,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 77.47 92.71 180)
+		(at 81.28 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1142,7 +1377,7 @@
 	)
 	(hierarchical_label "V_{DDA}"
 		(shape input)
-		(at 76.2 78.74 180)
+		(at 80.01 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1201,17 +1436,17 @@
 		(uuid "fa4809af-233d-4466-9d9b-9edd793749df")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 81.28 83.82 0)
+		(lib_id "Device:C")
+		(at 82.55 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0a50eda7-a115-4456-a983-41485989e9ae")
-		(property "Reference" "C46"
-			(at 78.74 82.5562 0)
+		(uuid "074ca3b8-63b2-4c1c-843b-9798f90cb831")
+		(property "Reference" "C4"
+			(at 78.74 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1455,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 78.74 85.0962 0)
+			(at 78.74 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1464,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 81.28 83.82 0)
+			(at 81.5848 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 83.82 0)
+			(at 82.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,8 +1481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 83.82 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1491,7 @@
 			)
 		)
 		(property "Rating" "6.3V"
-			(at 81.28 83.82 0)
+			(at 82.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,24 +1499,42 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "83478e9d-1385-4eaf-a95f-168300cc0a0e")
+		(property "Manufacturer_Part_Number" "V475M0603X5R6R3NDT"
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "415e09b8-a1ad-4724-ae96-5ddf01442c48")
+			(uuid "e4689970-c4e0-44d1-90ef-fb906b73907d")
+		)
+		(pin "1"
+			(uuid "9366fafb-25d0-40a6-a1b0-9be1266e1d61")
 		)
 		(instances
 			(project "OpenMD"
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "C46")
+					(reference "C4")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
-					(reference "C51")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
-					(reference "C56")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -1305,7 +1558,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 98.298 66.548 90)
+			(at 94.996 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,6 +1593,24 @@
 			)
 		)
 		(property "Rating" "100V"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA0603X7R104K101JT"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -1424,6 +1695,24 @@
 			)
 		)
 		(property "Rating" "5V"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CSA0603X7R103K500JT"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -1518,6 +1807,24 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "LCSC"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RTT0310R0FTP"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36fad771-721e-4b90-8888-fde83254364f")
 		)
@@ -1559,7 +1866,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 114.808 66.04 90)
+			(at 118.364 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,6 +1901,24 @@
 			)
 		)
 		(property "Rating" "100V"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA0603X7R104K101JT"
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -1680,7 +2005,25 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "100V"
+		(property "Rating" "6.3V"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA0603X7R104K500JT"
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -1766,6 +2109,24 @@
 			)
 		)
 		(property "Rating" "6W"
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 106.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ASR-M-3-0.5F"
 			(at 106.68 40.64 0)
 			(effects
 				(font
@@ -1861,6 +2222,24 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "LCSC"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RTT0310R0FTP"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b4f5c6c-0b50-4d3c-80c2-aa82acded879")
 		)
@@ -1902,7 +2281,7 @@
 				)
 			)
 		)
-		(property "Value" "INA241A2xDDF"
+		(property "Value" "INA240A2"
 			(at 92.71 74.9614 90)
 			(effects
 				(font
@@ -1910,7 +2289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -1919,7 +2298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina241b.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina296x.pdf"
 			(at 102.87 85.09 0)
 			(effects
 				(font
@@ -1928,7 +2307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOT-23-8"
+		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, ±0.01% Gain Accuracy, ±10 μV Offset Voltage, SOIC-8"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -1937,7 +2316,25 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
+		(property "Rating" "80V"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "INA240A2DR"
 			(at 106.68 81.28 0)
 			(effects
 				(font

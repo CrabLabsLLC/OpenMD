@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Crab Labs")
 		(comment 1 "Author: Orion Serup")
+		(comment 2 "License: CERN-OHL-W-2.0")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1229,6 +1230,24 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "LCSC"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCR0603J0R"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ec592ab-dfcc-4015-84e0-f775c27191f2")
 		)
@@ -1304,7 +1323,25 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "100V"
+		(property "Rating" "6.3V"
+			(at 176.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 176.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA0603X7R104K500JT"
 			(at 176.53 66.04 0)
 			(effects
 				(font
@@ -1353,7 +1390,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "1"
 			(at 84.582 61.976 90)
 			(effects
 				(font
@@ -1389,6 +1426,24 @@
 			)
 		)
 		(property "Rating" "100mW"
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FRC0603J1R0 TS"
 			(at 81.28 63.5 0)
 			(effects
 				(font
@@ -1475,7 +1530,25 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
+		(property "Rating" "85V"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Digikey"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UP1966E"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -1592,7 +1665,25 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "100V"
+		(property "Rating" "6.3V"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA0603X7R104K500JT"
 			(at 58.42 72.39 0)
 			(effects
 				(font
@@ -1685,6 +1776,24 @@
 				(hide yes)
 			)
 		)
+		(property "Source" "LCSC"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCR0603J0R"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d4957d0-b2c9-4ebe-ab72-7c09a0304023")
 		)
@@ -1761,6 +1870,24 @@
 			)
 		)
 		(property "Rating" "100mW"
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCR0603J0R"
 			(at 143.51 66.04 0)
 			(effects
 				(font
@@ -1856,6 +1983,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "V475M0603X5R6R3NDT"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07ac0cda-bd38-4e25-91d7-c763c13662fb")
 		)
@@ -1896,7 +2041,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "1"
 			(at 150.114 67.056 90)
 			(effects
 				(font
@@ -1932,6 +2077,24 @@
 			)
 		)
 		(property "Rating" "100mW"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FRC0603J1R0 TS"
 			(at 146.05 68.58 0)
 			(effects
 				(font

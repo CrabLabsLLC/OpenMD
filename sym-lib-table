@@ -6,4 +6,5 @@
   (lib (name "uP1996")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/2024-04-20_02-59-35.kicad_sym")(options "")(descr ""))
   (lib (name "EPC_FETs")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/EPC_FETs.kicad_sym")(options "")(descr ""))
   (lib (name "MP9485GN-Z")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/MP9485GN-Z.kicad_sym")(options "")(descr ""))
+  (lib (name "RAA2118054GP3#JA0")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/RAA2118054GP3#JA0.kicad_sym")(options "")(descr ""))
 )
