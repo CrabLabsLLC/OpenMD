@@ -570,7 +570,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 247 0 0.1882)
 		)
 		(uuid "333c1edc-8103-4690-800d-12fcc828edaf")
 		(property "Sheetname" "Current Sense A"
@@ -658,7 +658,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 247 0 0.1882)
 		)
 		(uuid "7e19f11a-277e-4650-9782-9c7c2d21b0fd")
 		(property "Sheetname" "Current Sense B"
@@ -746,7 +746,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 247 0 0.1882)
 		)
 		(uuid "c7f7d708-2dea-4049-a8c4-f9d7592eff53")
 		(property "Sheetname" "Current Sense C"

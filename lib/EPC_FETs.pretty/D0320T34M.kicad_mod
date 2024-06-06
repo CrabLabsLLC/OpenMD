@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "Q?"
 		(at 2.6797 -1.5875 -90)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -331,6 +331,17 @@
 		(layer "F.Mask")
 		(uuid "f79372dd-4a46-4526-b189-207f025f65f5")
 	)
+	(fp_rect
+		(start -2.25 -1.5)
+		(end 2.25 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "111a664b-2935-4c8c-ab3b-ae716834f58a")
+	)
 	(fp_line
 		(start -1.75 -0.975)
 		(end -1.75 0.975)
@@ -338,7 +349,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "78c1029b-0974-4b40-b131-a3842b6867eb")
 	)
 	(fp_line
@@ -348,7 +359,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "b035bd88-bc4a-4b60-9e6e-7921cc826890")
 	)
 	(fp_line
@@ -358,7 +369,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "08bdcde4-d387-4c16-9050-9f3ecf6f35cc")
 	)
 	(fp_line
@@ -368,7 +379,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "e5e98ba2-94ec-4179-9a29-f7115e556892")
 	)
 	(pad "1" smd roundrect
