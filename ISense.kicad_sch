@@ -1001,12 +1001,6 @@
 		(uuid "aa333258-f5e5-45e7-adab-f0d1d97c51fc")
 	)
 	(junction
-		(at 114.3 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf3891a9-b46e-417c-92b3-86d6c457fe01")
-	)
-	(junction
 		(at 87.63 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1023,6 +1017,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1a039c0-8171-4fe1-b2fc-37a2a2fc8dcd")
+	)
+	(junction
+		(at 115.57 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f70eadbe-05b8-433f-af9b-3a1f4c7ba317")
 	)
 	(wire
 		(pts
@@ -1066,16 +1066,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 81.28) (xy 116.84 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ba28b6-0d20-4fd0-926e-17c9caf23d36")
-	)
-	(wire
-		(pts
 			(xy 101.6 62.23) (xy 101.6 68.58)
 		)
 		(stroke
@@ -1083,16 +1073,6 @@
 			(type default)
 		)
 		(uuid "22f341ca-b309-4ac8-bbf3-cc346428951c")
-	)
-	(wire
-		(pts
-			(xy 114.3 81.28) (xy 114.3 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22f3990c-b733-4e22-a02f-b23d49d78a45")
 	)
 	(wire
 		(pts
@@ -1123,6 +1103,16 @@
 			(type default)
 		)
 		(uuid "40b2bbbc-16aa-433b-b9d7-c22813286add")
+	)
+	(wire
+		(pts
+			(xy 115.57 78.74) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4262e690-9169-4f53-bdcc-c33fcb128415")
 	)
 	(wire
 		(pts
@@ -1266,6 +1256,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade26965-e56f-46c8-b802-85b963e60251")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1d6295-c94e-4a91-9a65-f251a1557189")
+	)
+	(wire
+		(pts
 			(xy 87.63 86.36) (xy 87.63 91.44)
 		)
 		(stroke
@@ -1406,7 +1416,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 120.65 78.74)
+			(xy 114.3 78.74) (xy 115.57 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +1512,7 @@
 		)
 		(uuid "7b6fb032-153a-42bf-b7b1-7c5cfd80726b")
 	)
-	(text "V_{SENSE} = V_{REF} + I_{SHUNT} * .025"
+	(text "V_{SENSE} = V_{REF} + I_{SHUNT} * .015"
 		(exclude_from_sim no)
 		(at 149.098 91.186 0)
 		(effects
@@ -1512,7 +1522,17 @@
 		)
 		(uuid "80172590-5152-45bd-86dc-f17d53862f02")
 	)
-	(text "I_{MAX} = 84A, I_{MIN} = -48A, V_{DDA} = 3.3V, V_{REF} = 1.2"
+	(text "Gain = 50\n"
+		(exclude_from_sim no)
+		(at 115.824 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c1158f5-29c5-4421-9d03-e258b41abc0e")
+	)
+	(text "I_{MAX} = 110A, I_{MIN} = -110A, V_{DDA} = 3.3V, V_{REF} = 1.65"
 		(exclude_from_sim no)
 		(at 159.004 93.726 0)
 		(effects
@@ -1592,6 +1612,18 @@
 		)
 		(uuid "5e7137ad-939c-4d0d-a3a4-c1ead3faee4b")
 	)
+	(hierarchical_label "V_{DDA}"
+		(shape input)
+		(at 114.3 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63c97825-1147-4e7f-9719-dadc7e29d37e")
+	)
 	(hierarchical_label "I_{IN}"
 		(shape bidirectional)
 		(at 97.79 40.64 180)
@@ -1651,18 +1683,6 @@
 			(justify left)
 		)
 		(uuid "d850a21d-27d2-4e4b-9009-89decac3743d")
-	)
-	(hierarchical_label "REF"
-		(shape input)
-		(at 116.84 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbc95884-10fd-47be-b260-d4b7a74cd7ec")
 	)
 	(hierarchical_label "I_{OUT}"
 		(shape bidirectional)
@@ -2524,7 +2544,7 @@
 				)
 			)
 		)
-		(property "Value" "500u"
+		(property "Value" ".3m"
 			(at 106.68 36.83 90)
 			(effects
 				(font
@@ -2559,7 +2579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "6W"
+		(property "Rating" "3W"
 			(at 106.68 40.64 0)
 			(effects
 				(font
