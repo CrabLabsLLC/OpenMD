@@ -9,3 +9,6 @@ fp-info-cache
 *.ipc
 *.csv
 #auto_saved_files#
+*.gbr
+*.drl
+*.gbrjob

@@ -2154,6 +2154,18 @@
 		(uuid "a847fb51-58ff-42be-afb1-e3c604b36c4d")
 	)
 	(junction
+		(at 152.4 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8c1e65c-fda3-4652-a7a1-c5b79a80f711")
+	)
+	(junction
+		(at 143.51 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be566ecc-0467-4448-a0ff-90758dd23b8a")
+	)
+	(junction
 		(at 135.89 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2408,6 +2420,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 153.67) (xy 152.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0127dc22-48d3-485d-a9c5-82622c91460b")
+	)
+	(wire
+		(pts
+			(xy 143.51 153.67) (xy 143.51 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033ebc48-1b5c-489e-b55d-6f35c66904b9")
+	)
+	(wire
+		(pts
 			(xy 95.25 153.67) (xy 92.71 153.67)
 		)
 		(stroke
@@ -2515,6 +2547,16 @@
 			(type default)
 		)
 		(uuid "16ad5054-fd39-4e33-99ff-0197c9ddd6d8")
+	)
+	(wire
+		(pts
+			(xy 152.4 162.56) (xy 152.4 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d07237-e664-4271-b3cc-d19fab419b66")
 	)
 	(wire
 		(pts
@@ -2768,6 +2810,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 165.1) (xy 134.62 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316b4dd3-0f6d-4ce2-ba01-a6f1ea086cbc")
+	)
+	(wire
+		(pts
 			(xy 114.3 68.58) (xy 138.43 68.58)
 		)
 		(stroke
@@ -2845,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "396708a9-2cad-4b43-aac4-213e0bbcc0ac")
+	)
+	(wire
+		(pts
+			(xy 143.51 162.56) (xy 143.51 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0d0bd9-d427-4268-b052-7a172c1f1d61")
 	)
 	(wire
 		(pts
@@ -3058,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 153.67) (xy 152.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f903f1e-6250-4ed6-bc90-5beb181a8140")
+	)
+	(wire
+		(pts
 			(xy 100.33 109.22) (xy 125.73 109.22)
 		)
 		(stroke
@@ -3075,6 +3147,16 @@
 			(type default)
 		)
 		(uuid "506dd9ac-4b95-4dc0-93e2-c8b4d03366b3")
+	)
+	(wire
+		(pts
+			(xy 144.78 168.91) (xy 151.13 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52585197-98a8-49dc-9f33-b4137cd5d91c")
 	)
 	(wire
 		(pts
@@ -3128,6 +3210,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 166.37) (xy 142.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfe50ea-4304-4bcb-88a1-ea582d4d96b2")
+	)
+	(wire
+		(pts
 			(xy 110.49 86.36) (xy 114.3 86.36)
 		)
 		(stroke
@@ -3145,6 +3237,16 @@
 			(type default)
 		)
 		(uuid "5e16533b-0305-4d4e-8c25-93098ec3dd13")
+	)
+	(wire
+		(pts
+			(xy 143.51 153.67) (xy 137.16 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4ead0d-2ade-415f-a7e1-07f6a3fb026e")
 	)
 	(bus
 		(pts
@@ -3578,6 +3680,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 153.67) (xy 135.89 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99736329-d561-48e4-9c57-9484902ad84b")
+	)
+	(wire
+		(pts
 			(xy 92.71 134.62) (xy 93.98 134.62)
 		)
 		(stroke
@@ -3866,6 +3978,26 @@
 		)
 		(uuid "c1f9cb98-1b85-420a-897f-deb93e141355")
 	)
+	(wire
+		(pts
+			(xy 135.89 163.83) (xy 134.62 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a19156-f480-4bd4-b18e-58b3890b85e9")
+	)
+	(wire
+		(pts
+			(xy 135.89 162.56) (xy 135.89 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a8eb24-e605-4b47-b8fc-703177d76026")
+	)
 	(bus
 		(pts
 			(xy 257.81 147.32) (xy 257.81 165.1)
@@ -3875,6 +4007,16 @@
 			(type default)
 		)
 		(uuid "c73e1349-902e-4ba1-b760-e86eb77a454e")
+	)
+	(wire
+		(pts
+			(xy 134.62 167.64) (xy 142.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c901a47f-c03a-42fa-bd48-9076ea47bcf1")
 	)
 	(wire
 		(pts
@@ -3935,6 +4077,16 @@
 			(type default)
 		)
 		(uuid "d34c0535-9fe0-4751-b4a6-2c4405d4e235")
+	)
+	(wire
+		(pts
+			(xy 152.4 153.67) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f0da0a-45d0-4ba1-bc0f-e0c21cd1a67e")
 	)
 	(wire
 		(pts
@@ -4106,6 +4258,16 @@
 		)
 		(uuid "ee52731a-bc5a-45e6-a768-79d6be1aa957")
 	)
+	(wire
+		(pts
+			(xy 152.4 167.64) (xy 151.13 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc74452-452c-4790-9ac5-869237ecb530")
+	)
 	(bus
 		(pts
 			(xy 134.62 124.46) (xy 135.89 124.46)
@@ -4230,6 +4392,28 @@
 			(justify left)
 		)
 		(uuid "d8bfbf3d-ad5b-444f-abd5-f77d14f37234")
+	)
+	(label "HALL.B"
+		(at 134.62 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07fb9c6f-1195-41d0-9e32-86c3737fb7d4")
+	)
+	(label "HALL.A"
+		(at 127 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0823ee3c-e294-42a8-b1d8-0d6e1ca2b6fa")
 	)
 	(label "DRV{PHASES}"
 		(at 207.01 92.71 0)
@@ -4384,6 +4568,17 @@
 			(justify left bottom)
 		)
 		(uuid "847b9699-6e50-4c00-b241-11972d4b55bb")
+	)
+	(label "HALL.C"
+		(at 144.78 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c2a24df-57b3-45d7-be6f-d1d540c0e17f")
 	)
 	(label "INPUT.AH"
 		(at 101.6 104.14 0)
@@ -4564,6 +4759,18 @@
 			(justify left)
 		)
 		(uuid "295f32c7-1e44-4bbf-a2fc-dcea7818ad78")
+	)
+	(hierarchical_label "V_{DIG}"
+		(shape input)
+		(at 154.94 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38ff7da8-3c48-4dad-b2f7-b0565368edb8")
 	)
 	(hierarchical_label "V_{BATT}"
 		(shape bidirectional)
@@ -5018,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SCR0603J10K"
+		(property "Manufacturer_Part_Number" "RTT03304JTP"
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -7144,6 +7351,200 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 135.89 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcd261e7-85f0-4b36-a3e4-3b0417561e05")
+		(property "Reference" "R35"
+			(at 141.224 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 140.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.874 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCR0603J10K"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a98bb3a-6876-40f0-9694-211ef8217864")
+		)
+		(pin "1"
+			(uuid "a914d20d-d83b-4b15-b15e-0d4ad8436039")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 143.51 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c580ca1a-6a8b-4fe6-8a88-42b2b1fbd422")
+		(property "Reference" "R36"
+			(at 148.844 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 148.59 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.494 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCR0603J10K"
+			(at 143.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba2e431c-e197-462c-af05-aec80f8d2002")
+		)
+		(pin "1"
+			(uuid "72248006-241d-4330-9582-909a5aff78c9")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC_US")
 		(at 332.74 184.15 0)
 		(unit 1)
@@ -7161,7 +7562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" " 10k NTC"
+		(property "Value" "10k NTC"
 			(at 335.026 185.42 0)
 			(effects
 				(font
@@ -7550,6 +7951,103 @@
 			(project "OpenMD"
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 152.4 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e09056f9-0771-4b3a-bb1e-6ba7eaef0ec9")
+		(property "Reference" "R37"
+			(at 157.734 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 157.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.384 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 152.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100mW"
+			(at 152.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 152.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCR0603J10K"
+			(at 152.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2fbfec4-3ee2-4eca-aeb4-98d428a27aaa")
+		)
+		(pin "1"
+			(uuid "75904093-80da-4568-8855-10d267847f8b")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
+					(reference "R37")
 					(unit 1)
 				)
 			)
