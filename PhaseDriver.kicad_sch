@@ -294,28 +294,28 @@
 				)
 			)
 		)
-		(symbol "EPC_FETs:EPC2088"
+		(symbol "EPC_FETs:EPC2302"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 3.5052 1.8796 0)
+				(at 3.556 1.8796 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "EPC2088"
-				(at 7.1628 -0.1016 0)
+			(property "Value" "EPC2302"
+				(at 7.2136 -0.1016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "EPC_FETs:D0320T34M"
-				(at 8.3312 -3.6576 0)
+			(property "Footprint" "EPC_FETs:D0606F_100V"
+				(at 9.398 -3.6576 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -332,15 +332,15 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100 V 60A 3.2mE"
-				(at 11.43 -1.9304 0)
+			(property "Description" "100V 101A 1.9mE"
+				(at 11.5824 -1.9304 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "ki_fp_filters" "D0320T34M"
+			(property "ki_fp_filters" "D0606F_100V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -349,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EPC2088_1_0"
+			(symbol "EPC2302_1_0"
 				(arc
 					(start -5.0996 0.2128)
 					(mid -5.1039 0.0331)
@@ -697,24 +697,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 0 0)
@@ -1599,6 +1581,10 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "C13")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "C5")
 					(unit 1)
@@ -1607,23 +1593,20 @@
 					(reference "C10")
 					(unit 1)
 				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "C13")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "EPC_FETs:EPC2088")
+		(lib_id "EPC_FETs:EPC2302")
 		(at 147.32 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22bb1c77-ec43-4e69-b958-b119b8a948a2")
-		(property "Reference" "Q8"
+		(fields_autoplaced yes)
+		(uuid "1d1d1135-bdbc-4013-91ea-62c35b34b887")
+		(property "Reference" "Q4"
 			(at 151.13 43.1799 0)
 			(effects
 				(font
@@ -1632,7 +1615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EPC2065"
+		(property "Value" "EPC2302"
 			(at 151.13 45.7199 0)
 			(effects
 				(font
@@ -1641,8 +1624,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EPC_FETs:D0320T34M"
-			(at 155.6512 49.3776 0)
+		(property "Footprint" "EPC_FETs:D0606F_100V"
+			(at 156.718 49.3776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,8 +1642,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80 V 60A 3.2mE"
-			(at 151.13 48.006 0)
+		(property "Description" "100V 101A 1.9mE"
+			(at 151.13 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,69 +1651,39 @@
 				(justify left)
 			)
 		)
-		(property "Rating" "80V 60A"
-			(at 147.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "Digikey"
-			(at 147.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EPC2065"
-			(at 147.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "eda2678b-737e-4565-82cd-9d2278ee1717")
-		)
-		(pin "8"
-			(uuid "2d4bfa29-bc7b-4aad-b724-c7cf0b01fa50")
-		)
-		(pin "7"
-			(uuid "75b7fe17-3b23-4d9b-9114-02368671313b")
+		(pin "3"
+			(uuid "f43d2d62-9cd8-4b06-9845-b60a5fb8e962")
 		)
 		(pin "2"
-			(uuid "1d91e362-3f37-439d-8c51-fc3ded976db7")
+			(uuid "1f4b9357-6c84-44bc-bba9-f5ddfc0276b5")
 		)
 		(pin "1"
-			(uuid "8b9b0712-0b95-4cc1-bc35-72ee7948f2df")
+			(uuid "b55afe70-8c09-4f43-ad59-49af9cf4e7bd")
 		)
 		(pin "4"
-			(uuid "bda93307-b0d3-4d98-9cd6-a899f11362fd")
+			(uuid "d336ffe5-d416-4d77-877f-ec03fe9c7212")
 		)
-		(pin "3"
-			(uuid "3ecc2ccd-cea1-46a9-9d0f-d37fa1fd4a7d")
+		(pin "7"
+			(uuid "21fcccaf-5b1d-4ade-9195-ec8a942597ef")
+		)
+		(pin "6"
+			(uuid "f0530144-7479-4f05-81cb-971e4f4d29ac")
 		)
 		(pin "5"
-			(uuid "d2b349f4-ecd3-495a-81b4-b518b8a5cb01")
+			(uuid "5ce27477-fe00-4cd3-9c15-29fd518b2186")
 		)
 		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
-					(reference "Q8")
+			(project ""
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "Q6")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
-					(reference "Q7")
+					(reference "Q4")
 					(unit 1)
 				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "Q9")
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -1826,16 +1779,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "D6")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "D2")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "D4")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -1931,16 +1884,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "D5")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "D1")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "D3")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2036,16 +1989,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "C36")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "C30")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "C33")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -2141,16 +2094,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "C17")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "C14")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "C16")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2246,6 +2199,10 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "C35")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "C32")
 					(unit 1)
@@ -2254,15 +2211,11 @@
 					(reference "C34")
 					(unit 1)
 				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "C35")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "EPC_FETs:EPC2088")
+		(lib_id "EPC_FETs:EPC2302")
 		(at 147.32 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2270,7 +2223,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "64fb8858-d838-46bd-8fec-ab9e3d56ee77")
+		(uuid "5ea52118-7556-4874-a7d4-2bded198d335")
 		(property "Reference" "Q1"
 			(at 151.13 64.7699 0)
 			(effects
@@ -2280,7 +2233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EPC2065"
+		(property "Value" "EPC2302"
 			(at 151.13 67.3099 0)
 			(effects
 				(font
@@ -2289,8 +2242,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EPC_FETs:D0320T34M"
-			(at 155.6512 70.9676 0)
+		(property "Footprint" "EPC_FETs:D0606F_100V"
+			(at 156.718 70.9676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80 V 60A 3.2mE"
+		(property "Description" "100V 101A 1.9mE"
 			(at 151.13 69.8499 0)
 			(effects
 				(font
@@ -2316,69 +2269,39 @@
 				(justify left)
 			)
 		)
-		(property "Rating" "80V 60A"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "Digikey"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EPC2065"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "a49e15c9-39e1-4f20-8222-ea025731d689")
-		)
-		(pin "8"
-			(uuid "5fd9b10e-3f03-47ef-9b11-4ac6d18468b2")
-		)
-		(pin "7"
-			(uuid "ce9115d8-762b-4530-a639-2e39f807c56c")
+		(pin "3"
+			(uuid "815e13ed-d1fd-48fd-bd69-d3c77b815143")
 		)
 		(pin "2"
-			(uuid "448020f8-c40e-4305-8ef8-125ccf2e7f1a")
+			(uuid "361fbb08-3c6c-4777-97de-2d3e44da3605")
 		)
 		(pin "1"
-			(uuid "76fcbf4e-b8c8-42f2-8332-02f0535e117e")
+			(uuid "8fe628c9-b868-4964-b504-775d58f44cb1")
 		)
 		(pin "4"
-			(uuid "3b9d5224-ad2b-4f69-b0a8-d215f4e9d475")
+			(uuid "2d1d1b08-15ae-49df-9088-ae037b8184f2")
 		)
-		(pin "3"
-			(uuid "422588ad-8c94-4a44-ba46-eb9a59125777")
+		(pin "7"
+			(uuid "1d52128d-e236-47f4-a2b4-d541b0a80f56")
+		)
+		(pin "6"
+			(uuid "3dab9527-ae14-4f0f-abbd-3aef422c1dd4")
 		)
 		(pin "5"
-			(uuid "4bd8a718-00ba-4836-ad55-50569d989e6e")
+			(uuid "862d6631-57a3-400d-b8c4-ed8e117aeeaa")
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "Q3")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "Q1")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "Q2")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -2474,16 +2397,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "C75")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "C73")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "C74")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -2579,16 +2502,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "C31")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "C28")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "C29")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2684,16 +2607,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "C25")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "C20")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "C22")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -2789,16 +2712,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
+					(reference "C72")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
 					(reference "C70")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
 					(reference "C71")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "C72")
 					(unit 1)
 				)
 			)
