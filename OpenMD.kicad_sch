@@ -147,7 +147,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -161,13 +161,12 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_MountingPin"
-				(at 1.27 -10.16 0)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -188,7 +187,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -206,7 +205,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -215,7 +214,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_MountingPin_1_1"
+			(symbol "Conn_01x06_1_1"
 				(rectangle
 					(start -1.27 -7.493)
 					(end 0 -7.747)
@@ -291,26 +290,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -9.652) (xy 1.016 -9.652)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -9.271 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
 					)
 				)
 				(pin passive line
@@ -414,24 +393,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2440,16 +2401,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 153.67) (xy 92.71 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03eb06ec-5dbc-4ad1-a188-86e9a6417bd8")
-	)
-	(wire
-		(pts
 			(xy 114.3 133.35) (xy 114.3 140.97)
 		)
 		(stroke
@@ -3437,16 +3388,6 @@
 			(type default)
 		)
 		(uuid "77566837-dd73-411b-9c06-4d6efff26753")
-	)
-	(wire
-		(pts
-			(xy 95.25 153.67) (xy 95.25 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7782f09a-fc59-4da2-8dde-245af64eae93")
 	)
 	(wire
 		(pts
@@ -4904,18 +4845,6 @@
 		)
 		(uuid "95fdf4f6-91af-49e2-9bb6-4344e17a4fd1")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 92.71 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9727b779-08ea-4688-a705-feab9d1458d3")
-	)
 	(hierarchical_label "V_{ANA}"
 		(shape input)
 		(at 321.31 133.35 180)
@@ -5365,7 +5294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "3.6V"
 			(at 104.902 82.042 90)
 			(effects
 				(font
@@ -5996,7 +5925,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 95.25 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6040,7 +5969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -6084,9 +6013,6 @@
 		)
 		(pin "1"
 			(uuid "0133e435-2208-44dd-9dd7-e46fc40ddeac")
-		)
-		(pin "MP"
-			(uuid "40eb45b0-cb1d-4188-904f-953d9d84d381")
 		)
 		(pin "4"
 			(uuid "241ef45d-b42f-409e-9657-5d502868102a")
@@ -6991,6 +6917,88 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 129.54 189.23 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7594cc1a-39ad-4e51-b946-3f80c66bfc00")
+		(property "Reference" "H5"
+			(at 132.08 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 132.08 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "N/A"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
+			(at 129.54 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 307.34 68.58 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -7423,7 +7431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SCR0603J10K"
+		(property "Manufacturer_Part_Number" "SCR0603J2K2"
 			(at 135.89 158.75 0)
 			(effects
 				(font
@@ -7520,7 +7528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SCR0603J10K"
+		(property "Manufacturer_Part_Number" "SCR0603J2K2"
 			(at 143.51 158.75 0)
 			(effects
 				(font
@@ -7728,6 +7736,88 @@
 			(project "OpenMD"
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 309.88 196.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c80846d5-c08e-49db-86c3-78f9fc84eb36")
+		(property "Reference" "H7"
+			(at 312.42 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 312.42 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 309.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 309.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "N/A"
+			(at 309.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
+			(at 309.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -8029,7 +8119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SCR0603J10K"
+		(property "Manufacturer_Part_Number" "SCR0603J2K2"
 			(at 152.4 158.75 0)
 			(effects
 				(font

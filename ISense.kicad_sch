@@ -2511,16 +2511,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
+					(reference "C47")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
 					(reference "C52")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
 					(reference "C57")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -2719,16 +2719,16 @@
 		)
 		(instances
 			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
+					(reference "R24")
+					(unit 1)
+				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
 					(reference "R27")
 					(unit 1)
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
 					(reference "R30")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2752,7 +2752,7 @@
 				)
 			)
 		)
-		(property "Value" "INA240A2"
+		(property "Value" "INA241A2"
 			(at 92.71 74.9614 90)
 			(effects
 				(font
@@ -2760,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -2787,7 +2787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "80V"
+		(property "Rating" "110V"
 			(at 106.68 81.28 0)
 			(effects
 				(font
@@ -2805,7 +2805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "INA240A2DR"
+		(property "Manufacturer_Part_Number" "INA241A2DDFR"
 			(at 106.68 81.28 0)
 			(effects
 				(font
