@@ -660,6 +660,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener_Filled"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Filled_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Zener_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1001,16 +1146,16 @@
 		(uuid "aa333258-f5e5-45e7-adab-f0d1d97c51fc")
 	)
 	(junction
+		(at 115.57 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf16ffe-4175-4b8d-b860-cc3ee6914667")
+	)
+	(junction
 		(at 87.63 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0236ea3-15b3-476d-b3ee-a36a284d30c2")
-	)
-	(junction
-		(at 113.03 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dce995c2-14f4-4fb5-bfac-167115d12394")
 	)
 	(junction
 		(at 101.6 62.23)
@@ -1053,6 +1198,16 @@
 			(type default)
 		)
 		(uuid "0dcfec54-deb9-4db4-9d03-8a16be9ed95f")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0084a9-6a8b-4970-a3c5-d56ea77d3f36")
 	)
 	(wire
 		(pts
@@ -1136,16 +1291,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 91.44) (xy 113.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c8690f-e4a2-4dfb-972d-76fa55f45202")
-	)
-	(wire
-		(pts
 			(xy 101.6 40.64) (xy 101.6 53.34)
 		)
 		(stroke
@@ -1196,7 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 118.11 91.44)
+			(xy 107.95 91.44) (xy 115.57 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1361,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 113.03 97.79)
+			(xy 114.3 101.6) (xy 115.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 113.03 97.79)
+			(xy 115.57 99.06) (xy 115.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1406,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 111.76 99.06)
+			(xy 113.03 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1795,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 110.49 99.06 180)
+		(at 113.03 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1796,6 +1941,111 @@
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 115.57 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17e80e47-8e13-43bc-88b4-a00497e894a8")
+		(property "Reference" "D21"
+			(at 122.428 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.6V"
+			(at 122.936 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "1A"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BZT52C3V3S"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d33d289-f37f-497d-8c0f-9e636b2a5534")
+		)
+		(pin "2"
+			(uuid "8738ace0-e4cb-4115-8900-774ab86ac874")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -2215,111 +2465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Small")
-		(at 113.03 93.98 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ef7c59f-f5b0-4f4e-9700-b13b66b9368b")
-		(property "Reference" "D21"
-			(at 110.49 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100V"
-			(at 110.49 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ULCE1005A015FR"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "1A"
-			(at 113.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "842aeec8-b6e5-42f4-8d14-874844e35745")
-		)
-		(pin "1"
-			(uuid "493f2c0d-17a9-4de0-943f-3ccb65e3f48c")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "D21")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.3 62.23 90)
 		(unit 1)
@@ -2431,7 +2576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "730bb5ae-ef54-4085-9d34-9497dfd4c2c1")
-		(property "Reference" "C52"
+		(property "Reference" "C47"
 			(at 90.17 82.5562 0)
 			(effects
 				(font
@@ -2639,7 +2784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba86d7d5-37d9-452f-a1a4-e367b938634a")
-		(property "Reference" "R27"
+		(property "Reference" "R24"
 			(at 114.3 54.6099 0)
 			(effects
 				(font
