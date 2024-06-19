@@ -1819,7 +1819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ULCE1005A015FR"
+		(property "Manufacturer_Part_Number" "0603ESDA-05N"
 			(at 120.65 64.77 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BZT52C3V3S"
+		(property "Manufacturer_Part_Number" "MMSZ5233BS-7-F"
 			(at 160.02 68.58 0)
 			(effects
 				(font
@@ -2697,7 +2697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BZT52C3V3S"
+		(property "Manufacturer_Part_Number" "SZ4582"
 			(at 45.72 66.04 0)
 			(effects
 				(font

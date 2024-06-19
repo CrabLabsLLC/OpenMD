@@ -4738,7 +4738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.6V"
+		(property "Value" "3.3V"
 			(at 104.902 82.042 90)
 			(effects
 				(font
@@ -5409,6 +5409,24 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM08B-SRSS-TB(LF)(SN)"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
 			(at 95.25 106.68 0)
 			(effects
 				(font

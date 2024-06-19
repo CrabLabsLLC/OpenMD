@@ -1623,7 +1623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ULCE1005A015FR"
+		(property "Manufacturer_Part_Number" "0603ESDA-05N"
 			(at 57.15 52.07 0)
 			(effects
 				(font
@@ -1830,7 +1830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ULCE1005A015FR"
+		(property "Manufacturer_Part_Number" "0603ESDA-05N"
 			(at 43.18 52.07 0)
 			(effects
 				(font

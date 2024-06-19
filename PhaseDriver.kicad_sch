@@ -2192,6 +2192,24 @@
 				(justify left)
 			)
 		)
+		(property "Manufacturer_Part_Number" "EPC2302"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Digikey"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f43d2d62-9cd8-4b06-9845-b60a5fb8e962")
 		)
@@ -2285,6 +2303,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "N/A"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "N/A"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da2a4dde-e2fa-497b-9048-b63b1a196971")
 		)
@@ -2363,6 +2399,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "MMSZ5233BS-7-F"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "694ec69b-faaf-4add-8a11-20aaab8db472")
 		)
@@ -2433,6 +2487,24 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol, filled shape"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMSZ5233BS-7-F"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
 			(at 157.48 110.49 0)
 			(effects
 				(font
@@ -2903,7 +2975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 60.96 93.9799 0)
 			(effects
 				(font
@@ -3042,6 +3114,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EPC2302"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "Digikey"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -3206,7 +3296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 73.66 93.9799 0)
 			(effects
 				(font
@@ -3339,6 +3429,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "N/A"
 			(at 193.04 85.09 0)
 			(effects
 				(font
@@ -3530,6 +3638,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "N/A"
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "N/A"
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "271d16a2-a6c9-4b27-aed5-04b6155ab882")
 		)
@@ -3705,6 +3831,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "N/A"
+			(at 193.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "N/A"
 			(at 193.04 110.49 0)
 			(effects
 				(font

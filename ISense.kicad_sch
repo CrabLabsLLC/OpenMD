@@ -1965,7 +1965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.6V"
+		(property "Value" "3.3V"
 			(at 122.936 96.012 90)
 			(effects
 				(font

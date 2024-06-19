@@ -156,8 +156,8 @@
 		(aux_axis_origin 100.146 120.32)
 		(grid_origin 98.896 127.32)
 		(pcbplotparams
-			(layerselection 0x0030000_7ffffff8)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x0030000_7fffffe0)
+			(plot_on_all_layers_selection 0x0001000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -186,7 +186,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -29213,7 +29213,7 @@
 			(uuid "8c389375-67d5-40bf-b242-b1078296bc90")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "42cc6507-ce8e-4732-b163-62c978a10b27")
 			(effects
@@ -29490,7 +29490,7 @@
 			(uuid "b725cc94-ae20-4cc5-a664-8db25bc35400")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e27e6fb8-cea9-404d-bd9c-9f7642de7ea5")
 			(effects
@@ -35669,7 +35669,7 @@
 			(uuid "a18a8002-427a-40f3-8973-f38866a8a2af")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a918fa73-a2db-4b47-b05e-9d37e6362103")
 			(effects
@@ -38444,7 +38444,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38454,7 +38454,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38464,7 +38464,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38474,7 +38474,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38741,7 +38741,7 @@
 			(start -2.3 2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38751,7 +38751,7 @@
 			(start -2.3 2)
 			(end -2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38761,7 +38761,7 @@
 			(start 0.50118 0.79908)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38771,7 +38771,7 @@
 			(start 0.50118 0.79908)
 			(end 0.50118 -0.75032)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38781,7 +38781,7 @@
 			(start -1.55114 -0.00102)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38791,7 +38791,7 @@
 			(start 1.4994 -0.00102)
 			(end 0.50118 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38801,7 +38801,7 @@
 			(start 0.50118 -0.75032)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38811,7 +38811,7 @@
 			(start -0.64944 -0.80112)
 			(end -0.64944 0.79908)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38821,7 +38821,7 @@
 			(start -2.3 -2)
 			(end 2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -38831,7 +38831,7 @@
 			(start 2.3 -2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39090,7 +39090,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39100,7 +39100,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39110,7 +39110,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39120,7 +39120,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39589,7 +39589,7 @@
 			(start 1.4 0.9)
 			(end -1.4 0.9)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39599,7 +39599,7 @@
 			(start 1.4 -0.9)
 			(end 1.4 0.9)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39609,7 +39609,7 @@
 			(start 0.75 0)
 			(end 0.25 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39619,7 +39619,7 @@
 			(start 0.25 0.4)
 			(end -0.35 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39629,7 +39629,7 @@
 			(start 0.25 -0.4)
 			(end 0.25 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39639,7 +39639,7 @@
 			(start -0.35 0.55)
 			(end -0.35 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39649,7 +39649,7 @@
 			(start -0.35 0)
 			(end 0.25 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39659,7 +39659,7 @@
 			(start -0.35 0)
 			(end -0.75 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39669,7 +39669,7 @@
 			(start -0.35 -0.55)
 			(end -0.35 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39679,7 +39679,7 @@
 			(start -1.4 0.9)
 			(end -1.4 -0.9)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39689,7 +39689,7 @@
 			(start -1.4 -0.9)
 			(end 1.4 -0.9)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39948,7 +39948,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39958,7 +39958,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39968,7 +39968,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -39978,7 +39978,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40245,7 +40245,7 @@
 			(start -2.3 2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40255,7 +40255,7 @@
 			(start -2.3 2)
 			(end -2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40265,7 +40265,7 @@
 			(start 0.50118 0.79908)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40275,7 +40275,7 @@
 			(start 0.50118 0.79908)
 			(end 0.50118 -0.75032)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40285,7 +40285,7 @@
 			(start -1.55114 -0.00102)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40295,7 +40295,7 @@
 			(start 1.4994 -0.00102)
 			(end 0.50118 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40305,7 +40305,7 @@
 			(start 0.50118 -0.75032)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40315,7 +40315,7 @@
 			(start -0.64944 -0.80112)
 			(end -0.64944 0.79908)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40325,7 +40325,7 @@
 			(start -2.3 -2)
 			(end 2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40335,7 +40335,7 @@
 			(start 2.3 -2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40594,7 +40594,7 @@
 			(start -0.8 1.5)
 			(end 0.8 1.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40604,7 +40604,7 @@
 			(start 0.8 1.5)
 			(end 1 1.3)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40614,7 +40614,7 @@
 			(start -1.5 1.3)
 			(end -1 1.3)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40624,7 +40624,7 @@
 			(start -1 1.3)
 			(end -0.8 1.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40634,7 +40634,7 @@
 			(start 1 1.3)
 			(end 1.5 1.3)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40644,7 +40644,7 @@
 			(start 1.5 1.3)
 			(end 1.5 -1.3)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40654,7 +40654,7 @@
 			(start -1.5 -1.3)
 			(end -1.5 1.3)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40664,7 +40664,7 @@
 			(start -1 -1.3)
 			(end -1.5 -1.3)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40674,7 +40674,7 @@
 			(start 1 -1.3)
 			(end 0.8 -1.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40684,7 +40684,7 @@
 			(start 1.5 -1.3)
 			(end 1 -1.3)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40694,7 +40694,7 @@
 			(start -0.8 -1.5)
 			(end -1 -1.3)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40704,7 +40704,7 @@
 			(start 0.8 -1.5)
 			(end -0.8 -1.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40742,6 +40742,17 @@
 			(uuid "1045ffda-93f8-4777-a556-958221b13c6a")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPI-3012S.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQSH-3012.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40949,7 +40960,7 @@
 			(start -2.3 2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40959,7 +40970,7 @@
 			(start -2.3 2)
 			(end -2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40969,7 +40980,7 @@
 			(start 0.50118 0.79908)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40979,7 +40990,7 @@
 			(start 0.50118 0.79908)
 			(end 0.50118 -0.75032)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40989,7 +41000,7 @@
 			(start -1.55114 -0.00102)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -40999,7 +41010,7 @@
 			(start 1.4994 -0.00102)
 			(end 0.50118 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41009,7 +41020,7 @@
 			(start 0.50118 -0.75032)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41019,7 +41030,7 @@
 			(start -0.64944 -0.80112)
 			(end -0.64944 0.79908)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41029,7 +41040,7 @@
 			(start -2.3 -2)
 			(end 2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41039,7 +41050,7 @@
 			(start 2.3 -2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41298,7 +41309,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41308,7 +41319,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41318,7 +41329,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41328,7 +41339,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41782,7 +41793,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41792,7 +41803,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41802,7 +41813,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -41812,7 +41823,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42079,7 +42090,7 @@
 			(start -2.3 -1.5)
 			(end 2.3 -1.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42089,7 +42100,7 @@
 			(start -2.3 1.5)
 			(end -2.3 -1.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42099,7 +42110,7 @@
 			(start -2.3 1.5)
 			(end 2.3 1.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42109,7 +42120,7 @@
 			(start -1.55114 -0.00102)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42119,7 +42130,7 @@
 			(start -0.64944 -0.80112)
 			(end -0.64944 0.79908)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42129,7 +42140,7 @@
 			(start 0.50118 -0.75032)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42139,7 +42150,7 @@
 			(start 0.50118 0.79908)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42149,7 +42160,7 @@
 			(start 0.50118 0.79908)
 			(end 0.50118 -0.75032)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42159,7 +42170,7 @@
 			(start 1.4994 -0.00102)
 			(end 0.50118 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42169,7 +42180,7 @@
 			(start 2.3 -1.5)
 			(end 2.3 1.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42177,12 +42188,13 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 180)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "1cb6f335-c739-410b-8dfc-d2d057092e93")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.508 0.508)
+					(thickness 0.1016)
 				)
 				(justify mirror)
 			)
@@ -42405,7 +42417,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42415,7 +42427,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42425,7 +42437,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42435,7 +42447,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42692,7 +42704,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42702,7 +42714,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42712,7 +42724,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42722,7 +42734,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -42932,7 +42944,7 @@
 			(center 0 0)
 			(end 0.5 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill none)
@@ -43158,7 +43170,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43168,7 +43180,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43178,7 +43190,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43188,7 +43200,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43445,7 +43457,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43455,7 +43467,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43465,7 +43477,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43475,7 +43487,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43732,7 +43744,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43742,7 +43754,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43752,7 +43764,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -43762,7 +43774,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44019,7 +44031,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44029,7 +44041,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44039,7 +44051,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44049,7 +44061,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44518,7 +44530,7 @@
 			(start -2.3 2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44528,7 +44540,7 @@
 			(start -2.3 2)
 			(end -2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44538,7 +44550,7 @@
 			(start 0.50118 0.79908)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44548,7 +44560,7 @@
 			(start 0.50118 0.79908)
 			(end 0.50118 -0.75032)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44558,7 +44570,7 @@
 			(start -1.55114 -0.00102)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44568,7 +44580,7 @@
 			(start 1.4994 -0.00102)
 			(end 0.50118 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44578,7 +44590,7 @@
 			(start 0.50118 -0.75032)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44588,7 +44600,7 @@
 			(start -0.64944 -0.80112)
 			(end -0.64944 0.79908)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44598,7 +44610,7 @@
 			(start -2.3 -2)
 			(end 2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44608,7 +44620,7 @@
 			(start 2.3 -2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44867,7 +44879,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44877,7 +44889,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44887,7 +44899,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -44897,7 +44909,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45154,7 +45166,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45164,7 +45176,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45174,7 +45186,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45184,7 +45196,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45441,7 +45453,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45451,7 +45463,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45461,7 +45473,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45471,7 +45483,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45738,7 +45750,7 @@
 			(start -2.3 2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45748,7 +45760,7 @@
 			(start -2.3 2)
 			(end -2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45758,7 +45770,7 @@
 			(start 0.50118 0.79908)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45768,7 +45780,7 @@
 			(start 0.50118 0.79908)
 			(end 0.50118 -0.75032)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45778,7 +45790,7 @@
 			(start -1.55114 -0.00102)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45788,7 +45800,7 @@
 			(start 1.4994 -0.00102)
 			(end 0.50118 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45798,7 +45810,7 @@
 			(start 0.50118 -0.75032)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45808,7 +45820,7 @@
 			(start -0.64944 -0.80112)
 			(end -0.64944 0.79908)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45818,7 +45830,7 @@
 			(start -2.3 -2)
 			(end 2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -45828,7 +45840,7 @@
 			(start 2.3 -2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46087,7 +46099,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46097,7 +46109,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46107,7 +46119,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46117,7 +46129,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46374,7 +46386,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46384,7 +46396,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46394,7 +46406,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46404,7 +46416,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46661,7 +46673,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46671,7 +46683,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46681,7 +46693,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46691,7 +46703,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46948,7 +46960,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46958,7 +46970,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46968,7 +46980,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -46978,7 +46990,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -47235,7 +47247,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -47245,7 +47257,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -47255,7 +47267,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -47265,7 +47277,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -47489,7 +47501,7 @@
 			(start 6 -6.5)
 			(end -6 6.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type default)
 			)
 			(fill none)
@@ -47738,7 +47750,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -47748,7 +47760,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -47758,7 +47770,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -47768,7 +47780,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48025,7 +48037,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48035,7 +48047,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48045,7 +48057,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48055,7 +48067,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48312,7 +48324,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48322,7 +48334,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48332,7 +48344,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48342,7 +48354,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48599,7 +48611,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48609,7 +48621,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48619,7 +48631,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48629,7 +48641,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48926,7 +48938,7 @@
 			(start 7 -2.575)
 			(end -7 -2.575)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48936,7 +48948,7 @@
 			(start 7 -2.575)
 			(end 7 1.675)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48946,7 +48958,7 @@
 			(start -7 -2.575)
 			(end -7 1.675)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48956,7 +48968,7 @@
 			(start -5.5 0.967893)
 			(end -6 1.675)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48966,7 +48978,7 @@
 			(start 7 1.675)
 			(end -7 1.675)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -48976,7 +48988,7 @@
 			(start -5 1.675)
 			(end -5.5 0.967893)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -49344,7 +49356,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -49354,7 +49366,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -49364,7 +49376,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -49374,7 +49386,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50021,7 +50033,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50031,7 +50043,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50041,7 +50053,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50051,7 +50063,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50297,7 +50309,7 @@
 			(start 6 -6.5)
 			(end -6 6.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type default)
 			)
 			(fill none)
@@ -50546,7 +50558,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50556,7 +50568,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50566,7 +50578,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50576,7 +50588,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50833,7 +50845,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50843,7 +50855,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50853,7 +50865,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -50863,7 +50875,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51120,7 +51132,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51130,7 +51142,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51140,7 +51152,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51150,7 +51162,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51407,7 +51419,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51417,7 +51429,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51427,7 +51439,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51437,7 +51449,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51694,7 +51706,7 @@
 			(start 1 0.625)
 			(end -1 0.625)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51704,7 +51716,7 @@
 			(start 1 -0.625)
 			(end 1 0.625)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51714,7 +51726,7 @@
 			(start -1 0.625)
 			(end -1 -0.625)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51724,7 +51736,7 @@
 			(start -1 -0.625)
 			(end 1 -0.625)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51959,7 +51971,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51969,7 +51981,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51979,7 +51991,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -51989,7 +52001,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52246,7 +52258,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52256,7 +52268,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52266,7 +52278,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52276,7 +52288,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52533,7 +52545,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52543,7 +52555,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52553,7 +52565,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52563,7 +52575,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52820,7 +52832,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52830,7 +52842,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52840,7 +52852,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -52850,7 +52862,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53107,7 +53119,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53117,7 +53129,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53127,7 +53139,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53137,7 +53149,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53404,7 +53416,7 @@
 			(start -0.9 -0.7)
 			(end 0.9 -0.7)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53414,7 +53426,7 @@
 			(start -0.9 0.7)
 			(end -0.9 -0.7)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53424,7 +53436,7 @@
 			(start -0.5 0)
 			(end -0.3 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53434,7 +53446,7 @@
 			(start -0.3 -0.35)
 			(end -0.3 0.35)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53444,7 +53456,7 @@
 			(start -0.3 0)
 			(end 0.2 -0.35)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53454,7 +53466,7 @@
 			(start 0.2 -0.35)
 			(end 0.2 0.35)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53464,7 +53476,7 @@
 			(start 0.2 0.35)
 			(end -0.3 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53474,7 +53486,7 @@
 			(start 0.45 0)
 			(end 0.2 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53484,7 +53496,7 @@
 			(start 0.9 -0.7)
 			(end 0.9 0.7)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53494,7 +53506,7 @@
 			(start 0.9 0.7)
 			(end -0.9 0.7)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53731,7 +53743,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53741,7 +53753,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53751,7 +53763,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -53761,7 +53773,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54018,7 +54030,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54028,7 +54040,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54038,7 +54050,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54048,7 +54060,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54305,7 +54317,7 @@
 			(start 1 0.625)
 			(end -1 0.625)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54315,7 +54327,7 @@
 			(start 1 -0.625)
 			(end 1 0.625)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54325,7 +54337,7 @@
 			(start -1 0.625)
 			(end -1 -0.625)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54335,7 +54347,7 @@
 			(start -1 -0.625)
 			(end 1 -0.625)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54587,7 +54599,7 @@
 			(start 0.8 -1.45)
 			(end 0.8 1.45)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54597,7 +54609,7 @@
 			(start -0.8 -1.45)
 			(end 0.8 -1.45)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54607,7 +54619,7 @@
 			(start -0.8 1.05)
 			(end -0.8 -1.45)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54617,7 +54629,7 @@
 			(start 0.8 1.45)
 			(end -0.4 1.45)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54627,7 +54639,7 @@
 			(start -0.4 1.45)
 			(end -0.8 1.05)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54893,7 +54905,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54903,7 +54915,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54913,7 +54925,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -54923,7 +54935,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55180,7 +55192,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55190,7 +55202,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55200,7 +55212,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55210,7 +55222,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55467,7 +55479,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55477,7 +55489,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55487,7 +55499,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55497,7 +55509,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55732,7 +55744,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55742,7 +55754,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55752,7 +55764,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55762,7 +55774,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -55972,7 +55984,7 @@
 			(center 0 0)
 			(end 0.5 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill none)
@@ -56198,7 +56210,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56208,7 +56220,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56218,7 +56230,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56228,7 +56240,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56438,7 +56450,7 @@
 			(center 0 0)
 			(end 0.5 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill none)
@@ -56664,7 +56676,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56674,7 +56686,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56684,7 +56696,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56694,7 +56706,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56951,7 +56963,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56961,7 +56973,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56971,7 +56983,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -56981,7 +56993,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -57227,7 +57239,7 @@
 			(start 6 -6.5)
 			(end -6 6.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type default)
 			)
 			(fill none)
@@ -57476,7 +57488,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -57486,7 +57498,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -57496,7 +57508,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -57506,7 +57518,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -57741,7 +57753,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -57751,7 +57763,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -57761,7 +57773,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -57771,7 +57783,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58028,7 +58040,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58038,7 +58050,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58048,7 +58060,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58058,7 +58070,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58316,7 +58328,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58326,7 +58338,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58336,7 +58348,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58346,7 +58358,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58603,7 +58615,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58613,7 +58625,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58623,7 +58635,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -58633,7 +58645,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59068,7 +59080,7 @@
 			(start 6 -6.5)
 			(end -6 6.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type default)
 			)
 			(fill none)
@@ -59327,7 +59339,7 @@
 			(start -2.3 2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59337,7 +59349,7 @@
 			(start -2.3 2)
 			(end -2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59347,7 +59359,7 @@
 			(start 0.50118 0.79908)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59357,7 +59369,7 @@
 			(start 0.50118 0.79908)
 			(end 0.50118 -0.75032)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59367,7 +59379,7 @@
 			(start -1.55114 -0.00102)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59377,7 +59389,7 @@
 			(start 1.4994 -0.00102)
 			(end 0.50118 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59387,7 +59399,7 @@
 			(start 0.50118 -0.75032)
 			(end -0.64944 -0.00102)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59397,7 +59409,7 @@
 			(start -0.64944 -0.80112)
 			(end -0.64944 0.79908)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59407,7 +59419,7 @@
 			(start -2.3 -2)
 			(end 2.3 -2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59417,7 +59429,7 @@
 			(start 2.3 -2)
 			(end 2.3 2)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59676,7 +59688,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59686,7 +59698,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59696,7 +59708,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59706,7 +59718,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -59952,7 +59964,7 @@
 			(start 6 -6.5)
 			(end -6 6.5)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type default)
 			)
 			(fill none)
@@ -60201,7 +60213,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60211,7 +60223,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60221,7 +60233,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60231,7 +60243,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60488,7 +60500,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60498,7 +60510,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60508,7 +60520,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60518,7 +60530,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60775,7 +60787,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60785,7 +60797,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60795,7 +60807,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -60805,7 +60817,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61060,7 +61072,7 @@
 			(start 5 -2.575)
 			(end -5 -2.575)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61070,7 +61082,7 @@
 			(start 5 -2.575)
 			(end 5 1.675)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61080,7 +61092,7 @@
 			(start -5 -2.575)
 			(end -5 1.675)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61090,7 +61102,7 @@
 			(start -3.5 0.967893)
 			(end -4 1.675)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61100,7 +61112,7 @@
 			(start 5 1.675)
 			(end -5 1.675)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61110,7 +61122,7 @@
 			(start -3 1.675)
 			(end -3.5 0.967893)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61118,12 +61130,13 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "55ea425c-778f-4ffc-a16a-69ea8366a0d2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.508 0.508)
+					(thickness 0.1016)
 				)
 				(justify mirror)
 			)
@@ -61231,6 +61244,17 @@
 		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/models/JST_-_SM08B-SRSS-TB(LF)(SN).step"
+			(offset
+				(xyz 0 -0.635 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -61426,7 +61450,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61436,7 +61460,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61446,7 +61470,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61456,7 +61480,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61713,7 +61737,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61723,7 +61747,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61733,7 +61757,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -61743,7 +61767,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62000,7 +62024,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62010,7 +62034,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62020,7 +62044,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62030,7 +62054,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62476,7 +62500,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62486,7 +62510,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62496,7 +62520,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62506,7 +62530,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62763,7 +62787,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62773,7 +62797,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62783,7 +62807,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -62793,7 +62817,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63050,7 +63074,7 @@
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63060,7 +63084,7 @@
 			(start 0.8 0.4125)
 			(end -0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63070,7 +63094,7 @@
 			(start -0.8 -0.4125)
 			(end 0.8 -0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63080,7 +63104,7 @@
 			(start 0.8 -0.4125)
 			(end 0.8 0.4125)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63347,7 +63371,7 @@
 			(start 0.9 0.7)
 			(end -0.9 0.7)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63357,7 +63381,7 @@
 			(start 0.9 -0.7)
 			(end 0.9 0.7)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63367,7 +63391,7 @@
 			(start 0.45 0)
 			(end 0.2 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63377,7 +63401,7 @@
 			(start 0.2 0.35)
 			(end -0.3 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63387,7 +63411,7 @@
 			(start 0.2 -0.35)
 			(end 0.2 0.35)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63397,7 +63421,7 @@
 			(start -0.3 0)
 			(end 0.2 -0.35)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63407,7 +63431,7 @@
 			(start -0.3 -0.35)
 			(end -0.3 0.35)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63417,7 +63441,7 @@
 			(start -0.5 0)
 			(end -0.3 0)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63427,7 +63451,7 @@
 			(start -0.9 0.7)
 			(end -0.9 -0.7)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63437,7 +63461,7 @@
 			(start -0.9 -0.7)
 			(end 0.9 -0.7)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63445,12 +63469,13 @@
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 1.85 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "9304ce5c-5c84-4ce8-bc27-a924dace07cf")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.508 0.508)
+					(thickness 0.1016)
 				)
 				(justify mirror)
 			)
@@ -63673,7 +63698,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63683,7 +63708,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63693,7 +63718,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63703,7 +63728,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63960,7 +63985,7 @@
 			(start 0.8 -0.4)
 			(end 0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63970,7 +63995,7 @@
 			(start -0.8 -0.4)
 			(end 0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63980,7 +64005,7 @@
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -63990,7 +64015,7 @@
 			(start -0.8 0.4)
 			(end -0.8 -0.4)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -64247,7 +64272,7 @@
 			(start 1.6 1.25)
 			(end -1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -64257,7 +64282,7 @@
 			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -64267,7 +64292,7 @@
 			(start -1.6 1.25)
 			(end -1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")
@@ -64277,7 +64302,7 @@
 			(start -1.6 -1.25)
 			(end 1.6 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.0508)
 				(type solid)
 			)
 			(layer "B.Fab")

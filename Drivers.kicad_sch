@@ -2190,7 +2190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 134.62 93.9799 0)
 			(effects
 				(font
@@ -2287,7 +2287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 59.69 43.1799 0)
 			(effects
 				(font
@@ -2384,7 +2384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 109.22 68.5799 0)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 109.22 93.9799 0)
 			(effects
 				(font
@@ -2578,7 +2578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 96.52 68.5799 0)
 			(effects
 				(font
@@ -2675,7 +2675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 146.05 68.5799 0)
 			(effects
 				(font
@@ -2772,7 +2772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 121.92 68.5799 0)
 			(effects
 				(font
@@ -2869,7 +2869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 96.52 43.1799 0)
 			(effects
 				(font
@@ -2966,7 +2966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 83.82 43.1799 0)
 			(effects
 				(font
@@ -3063,7 +3063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 133.35 68.5799 0)
 			(effects
 				(font
@@ -3160,7 +3160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 59.69 68.5799 0)
 			(effects
 				(font
@@ -3257,7 +3257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 121.92 93.9799 0)
 			(effects
 				(font
@@ -3354,7 +3354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 85.09 93.9799 0)
 			(effects
 				(font
@@ -3451,7 +3451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 109.22 43.1799 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 72.39 43.1799 0)
 			(effects
 				(font
@@ -3645,7 +3645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 72.39 68.5799 0)
 			(effects
 				(font
@@ -3742,7 +3742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 158.75 68.5799 0)
 			(effects
 				(font
@@ -3839,7 +3839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 133.35 43.1799 0)
 			(effects
 				(font
@@ -3936,7 +3936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 83.82 68.5799 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 60.96 93.9799 0)
 			(effects
 				(font
@@ -4130,7 +4130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 96.52 93.9799 0)
 			(effects
 				(font
@@ -4227,7 +4227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 158.75 43.1799 0)
 			(effects
 				(font
@@ -4324,7 +4324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 121.92 43.1799 0)
 			(effects
 				(font
@@ -4421,7 +4421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 146.05 43.1799 0)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 72.39 93.9799 0)
 			(effects
 				(font
