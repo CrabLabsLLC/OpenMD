@@ -13,3 +13,6 @@ fp-info-cache
 *.drl
 *.gbrjob
 OpenMD.3mf
+OpenMD.step
+OpenMD.stl
+*.kicad_sch_bak
