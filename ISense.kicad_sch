@@ -244,142 +244,6 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1122,18 +986,6 @@
 		(uuid "68d88dcf-6164-4843-8e6a-9de3460ad39d")
 	)
 	(junction
-		(at 82.55 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6aaa6603-c10c-464a-9c7e-35f0db79b9ba")
-	)
-	(junction
-		(at 82.55 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "839fcd53-5e8c-4c97-bcc8-13f1a8c14583")
-	)
-	(junction
 		(at 101.6 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1331,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 78.74) (xy 87.63 78.74)
+			(xy 80.01 78.74) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1348,16 +1200,6 @@
 			(type default)
 		)
 		(uuid "6e6f954a-aeb1-4b46-ad96-f8ae197ccf8a")
-	)
-	(wire
-		(pts
-			(xy 81.28 92.71) (xy 82.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f5f3c04-88ac-47e2-bcf0-a25d48be9d37")
 	)
 	(wire
 		(pts
@@ -1381,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 92.71) (xy 86.36 92.71)
+			(xy 81.28 92.71) (xy 86.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1428,16 +1270,6 @@
 			(type default)
 		)
 		(uuid "b0c6ba2d-0183-4693-9f33-45bbf44e6554")
-	)
-	(wire
-		(pts
-			(xy 80.01 78.74) (xy 82.55 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b67e644f-2800-4eaf-a651-f2566a716bd6")
 	)
 	(wire
 		(pts
@@ -1501,16 +1333,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 88.9) (xy 82.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cec72cf1-3b87-4ec0-a62e-4167e804c0be")
-	)
-	(wire
-		(pts
 			(xy 109.22 62.23) (xy 111.76 62.23)
 		)
 		(stroke
@@ -1538,16 +1360,6 @@
 			(type default)
 		)
 		(uuid "ed474ea1-5525-4f11-9e3d-ca742d81e5e6")
-	)
-	(wire
-		(pts
-			(xy 82.55 78.74) (xy 82.55 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebc040d-8ee7-4e20-8e37-2591bc4b3f42")
 	)
 	(wire
 		(pts
@@ -1592,18 +1404,6 @@
 		(uuid 19bd3b2f-bc80-4b0f-8a2a-9cc2e268f82d)
 	)
 	(rectangle
-		(start 89.535 50.8)
-		(end 104.14 66.04)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7f818a92-b52b-45af-ac0d-d25b97affa46)
-	)
-	(rectangle
 		(start 100.33 50.8)
 		(end 113.03 66.04)
 		(stroke
@@ -1615,18 +1415,6 @@
 		)
 		(uuid 8f9533bf-f562-4050-8c46-244d74f90b8a)
 	)
-	(rectangle
-		(start 109.855 50.8)
-		(end 123.825 66.04)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d0833570-e9fd-458e-8bae-f111fcb1ce87)
-	)
 	(text "Current Sense Shunt Resistor\n"
 		(exclude_from_sim no)
 		(at 106.68 30.48 0)
@@ -1636,16 +1424,6 @@
 			)
 		)
 		(uuid "02c1b213-6dc6-40e4-b185-d78986d49dbb")
-	)
-	(text "Common Mode Low Pass at 16kHz"
-		(exclude_from_sim no)
-		(at 132.334 69.088 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "30d72024-e99b-4bc3-80b8-7a5d9e70cb8e")
 	)
 	(text "Differential Low Pass at 800 kHz"
 		(exclude_from_sim no)
@@ -1745,18 +1523,6 @@
 		)
 		(uuid "5dc64b9e-deae-42f7-99ce-9ea615b13d87")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 116.84 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e7137ad-939c-4d0d-a3a4-c1ead3faee4b")
-	)
 	(hierarchical_label "V_{DDA}"
 		(shape input)
 		(at 114.3 83.82 0)
@@ -1805,18 +1571,6 @@
 		)
 		(uuid "9c59af3f-7efe-4e2b-a3c5-dc9999cef09d")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 96.52 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa4d6d25-9f71-473c-b341-0064fdba21bb")
-	)
 	(hierarchical_label "SENSE"
 		(shape output)
 		(at 118.11 91.44 0)
@@ -1840,111 +1594,6 @@
 			(justify left)
 		)
 		(uuid "fa4809af-233d-4466-9d9b-9edd793749df")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 82.55 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "074ca3b8-63b2-4c1c-843b-9798f90cb831")
-		(property "Reference" "C4"
-			(at 78.74 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 78.74 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 81.5848 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 82.55 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "6.3V"
-			(at 82.55 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "V475M0603X5R6R3NDT"
-			(at 82.55 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 82.55 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e4689970-c4e0-44d1-90ef-fb906b73907d")
-		)
-		(pin "1"
-			(uuid "9366fafb-25d0-40a6-a1b0-9be1266e1d61")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "C4")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
-					(reference "C46")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:D_Zener_Filled")
@@ -2046,108 +1695,6 @@
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
 					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 99.06 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b2edc8a-2eda-46bf-87cc-088c173b71f2")
-		(property "Reference" "C48"
-			(at 98.298 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 94.996 64.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "100V"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CGA0603X7R104K101JT"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "970ab5c9-206f-4811-9924-c5cd0efc7d58")
-		)
-		(pin "2"
-			(uuid "60fe027a-0ce8-4081-ab3d-c32c2f15d9cf")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "C48")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
-					(reference "C53")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
-					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -2459,108 +2006,6 @@
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 114.3 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62083430-b303-48b6-8c4a-e564edc2810a")
-		(property "Reference" "C50"
-			(at 114.808 59.182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 118.364 64.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "100V"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CGA0603X7R104K101JT"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4e647b2-6486-43d1-bd28-32ca0b06c4fd")
-		)
-		(pin "2"
-			(uuid "3cf6bc95-c0a5-411b-a2e4-a624f470a341")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "C50")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
-					(reference "C55")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
-					(reference "C60")
 					(unit 1)
 				)
 			)

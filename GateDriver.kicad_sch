@@ -860,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 60.96) (xy 147.32 60.96)
+			(xy 137.16 60.96) (xy 176.53 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1250,16 +1250,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 176.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b9ce89-5a6c-43c0-9ff1-a4895b78799d")
-	)
-	(wire
-		(pts
 			(xy 43.18 58.42) (xy 55.88 58.42)
 		)
 		(stroke
@@ -1289,17 +1279,6 @@
 			(justify left bottom)
 		)
 		(uuid "49dcec56-dfdd-4062-b108-8993bf0ca0d0")
-	)
-	(label "SW"
-		(at 173.99 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1067b81-8eaa-4c30-9bf5-3dd8be4550e9")
 	)
 	(label "UGL"
 		(at 135.89 66.04 0)
@@ -1465,108 +1444,6 @@
 			(justify left)
 		)
 		(uuid "ee800c4d-1830-43a8-936f-d438316c2f75")
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 151.13 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08635ac0-b161-4d85-90e4-c9d2dc7fa092")
-		(property "Reference" "R10"
-			(at 150.876 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 154.432 59.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 150.876 61.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "100mW"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SCR0603J0R"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ec592ab-dfcc-4015-84e0-f775c27191f2")
-		)
-		(pin "1"
-			(uuid "c0135bf7-00f8-474b-bc6f-efc1d0eb34cf")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/c2de4369-e1cf-48b7-9260-54fc6f5ddd69"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/cbf4e12a-3fd7-44b5-8509-c83b124ff905"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/e841f064-3f02-4c16-b30e-9ec0b7ba7273"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
