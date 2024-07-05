@@ -379,23 +379,23 @@
 				)
 			)
 		)
-		(symbol "Device:D_TVS_Small"
+		(symbol "Device:D_Zener_Small_Filled"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D_TVS_Small"
-				(at 0 -2.54 0)
+			(property "Value" "D_Zener_Small_Filled"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -403,7 +403,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -412,7 +412,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -420,152 +420,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0 1.016) (xy 0 -1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.016) (xy -1.27 -1.016) (xy 1.27 1.016) (xy 1.27 -1.016) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D_Zener_Filled"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener_Filled"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode, filled shape"
+			(property "Description" "Zener diode, small symbol, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -592,10 +447,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Zener_Filled_0_1"
+			(symbol "D_Zener_Small_Filled_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 0.762 0) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -607,7 +462,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -619,7 +474,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -630,10 +485,10 @@
 					)
 				)
 			)
-			(symbol "D_Zener_Filled_1_1"
+			(symbol "D_Zener_Small_Filled_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.778)
 					(name "K"
 						(effects
 							(font
@@ -650,8 +505,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at 2.54 0 180)
+					(length 1.778)
 					(name "A"
 						(effects
 							(font
@@ -998,12 +853,6 @@
 		(uuid "aa333258-f5e5-45e7-adab-f0d1d97c51fc")
 	)
 	(junction
-		(at 115.57 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adf16ffe-4175-4b8d-b860-cc3ee6914667")
-	)
-	(junction
 		(at 87.63 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1053,7 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 91.44) (xy 118.11 91.44)
+			(xy 107.95 91.44) (xy 118.11 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1190,36 +1039,6 @@
 			(type default)
 		)
 		(uuid "674df33c-4eb5-4171-8ea0-fe5cd8b87868")
-	)
-	(wire
-		(pts
-			(xy 107.95 91.44) (xy 115.57 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e6f954a-aeb1-4b46-ad96-f8ae197ccf8a")
-	)
-	(wire
-		(pts
-			(xy 114.3 101.6) (xy 115.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bf1de84-6b33-42bf-97ac-963e35b786b8")
-	)
-	(wire
-		(pts
-			(xy 115.57 99.06) (xy 115.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92cc11ec-358c-4b76-9789-57bb364d82a4")
 	)
 	(wire
 		(pts
@@ -1363,16 +1182,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 101.6) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec94fdc-e00b-4f36-9ed8-b6def9bfa2d3")
-	)
-	(wire
-		(pts
 			(xy 114.3 78.74) (xy 115.57 78.74)
 		)
 		(stroke
@@ -1435,7 +1244,7 @@
 		)
 		(uuid "7b6fb032-153a-42bf-b7b1-7c5cfd80726b")
 	)
-	(text "V_{SENSE} = V_{REF} + I_{SHUNT} * .015"
+	(text "V_{SENSE} = V_{REF} + I_{SHUNT} * .01"
 		(exclude_from_sim no)
 		(at 149.098 91.186 0)
 		(effects
@@ -1445,7 +1254,7 @@
 		)
 		(uuid "80172590-5152-45bd-86dc-f17d53862f02")
 	)
-	(text "Gain = 50\n"
+	(text "Gain = 20\n"
 		(exclude_from_sim no)
 		(at 115.824 74.168 0)
 		(effects
@@ -1455,7 +1264,7 @@
 		)
 		(uuid "9c1158f5-29c5-4421-9d03-e258b41abc0e")
 	)
-	(text "I_{MAX} = 110A, I_{MIN} = -110A, V_{DDA} = 3.3V, V_{REF} = 1.65"
+	(text "I_{MAX} = 165A, I_{MIN} = -165A, V_{DDA} = 3.3V, V_{REF} = 1.65"
 		(exclude_from_sim no)
 		(at 159.004 93.726 0)
 		(effects
@@ -1559,18 +1368,6 @@
 		)
 		(uuid "91d16779-07a8-4f75-9c01-5f946c1fb08a")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 113.03 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c59af3f-7efe-4e2b-a3c5-dc9999cef09d")
-	)
 	(hierarchical_label "SENSE"
 		(shape output)
 		(at 118.11 91.44 0)
@@ -1594,216 +1391,6 @@
 			(justify left)
 		)
 		(uuid "fa4809af-233d-4466-9d9b-9edd793749df")
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Filled")
-		(at 115.57 95.25 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17e80e47-8e13-43bc-88b4-a00497e894a8")
-		(property "Reference" "D21"
-			(at 122.428 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 122.936 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, filled shape"
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "1A"
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BZT52C3V3S"
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d33d289-f37f-497d-8c0f-9e636b2a5534")
-		)
-		(pin "2"
-			(uuid "8738ace0-e4cb-4115-8900-774ab86ac874")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "D21")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Small")
-		(at 125.73 44.45 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1beaa6bd-88ae-49d0-afc4-2763c26b9856")
-		(property "Reference" "D24"
-			(at 123.19 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100V"
-			(at 123.19 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 125.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 125.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ULCE1005A015FR"
-			(at 125.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 125.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "1A"
-			(at 125.73 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c351836-1817-41aa-b5b5-e27d0d02f8f3")
-		)
-		(pin "1"
-			(uuid "bb10b44e-3472-4158-aa06-cb2687a1a6fc")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
-					(reference "D24")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
-					(reference "D25")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1830,7 +1417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -1934,7 +1521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 55.88 0)
 			(effects
 				(font
@@ -2039,7 +1626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -2134,7 +1721,7 @@
 				)
 			)
 		)
-		(property "Value" ".3m"
+		(property "Value" ".5m"
 			(at 106.68 36.83 90)
 			(effects
 				(font
@@ -2247,7 +1834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 55.88 0)
 			(effects
 				(font
@@ -2319,6 +1906,84 @@
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small_Filled")
+		(at 125.73 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2adeb3c-70d7-447d-817f-bf24df51bbb1")
+		(property "Reference" "D7"
+			(at 128.27 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100V"
+			(at 128.27 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 125.73 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol, filled shape"
+			(at 125.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02e2b20e-380b-43d1-891c-7b534549a457")
+		)
+		(pin "2"
+			(uuid "92edf8a1-1104-42cd-bb1e-56f168e933c6")
+		)
+		(instances
+			(project ""
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/333c1edc-8103-4690-800d-12fcc828edaf"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/7e19f11a-277e-4650-9782-9c7c2d21b0fd"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/2a00e860-f835-428e-8d60-1f81dad8d039/c7f7d708-2dea-4049-a8c4-f9d7592eff53"
+					(reference "D9")
 					(unit 1)
 				)
 			)
