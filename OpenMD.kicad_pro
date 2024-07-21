@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1016,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1524
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -118,7 +118,7 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.381,
+        "min_copper_edge_clearance": 0.254,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -566,11 +566,13 @@
       "/Drivers/Phase Driver C/PHASE": "High Power",
       "/Drivers/Phase Driver C/V_{DRV}": "High Power",
       "/Predriver Voltage Supply/SW": "Power",
+      "/Predriver Voltage Supply/V_{OUT}": "Power",
       "/SW.A": "High Power",
       "/SW.B": "High Power",
       "/SW.C": "High Power",
       "/SW{PHASES}": "High Power",
       "/V_{BATT}": "High Power",
+      "/V_{DRV}": "Power",
       "/{PHASES}": "High Power",
       "unconnected-(J6-Pin_1-Pad1)": "High Power",
       "unconnected-(J7-Pin_1-Pad1)": "High Power"
