@@ -149,151 +149,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:D_Zener_Small_Filled"
 			(pin_numbers hide)
 			(pin_names
@@ -1101,12 +956,6 @@
 		(uuid "671901e7-0157-42b7-a112-53a349f9ee85")
 	)
 	(junction
-		(at 233.68 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67f12f2b-e0a5-482f-a7cb-edb28696c6b1")
-	)
-	(junction
 		(at 107.95 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1155,12 +1004,6 @@
 		(uuid "9962018a-ce0b-4684-acee-6453877a0da7")
 	)
 	(junction
-		(at 233.68 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4451a81-fad6-4fff-ba2a-a77d0f91fa79")
-	)
-	(junction
 		(at 133.35 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1207,12 +1050,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f74c5969-1336-4ba1-8652-dfafd7b12380")
-	)
-	(junction
-		(at 257.81 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd35d5fe-74d9-47a9-b6c1-6f65c82fc465")
 	)
 	(wire
 		(pts
@@ -1266,16 +1103,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 91.44) (xy 257.81 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f2782e-2fe6-4001-888c-c93c9d4d4483")
-	)
-	(wire
-		(pts
 			(xy 198.12 85.09) (xy 198.12 81.28)
 		)
 		(stroke
@@ -1316,16 +1143,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 86.36) (xy 257.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22f50ea6-e8da-47ee-a305-091607b3299d")
-	)
-	(wire
-		(pts
 			(xy 95.25 68.58) (xy 107.95 68.58)
 		)
 		(stroke
@@ -1346,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 91.44) (xy 267.97 91.44)
+			(xy 233.68 91.44) (xy 238.76 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1506,16 +1323,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 102.87) (xy 257.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "666252a3-d0f0-48c0-8880-7d7b5b29b8eb")
-	)
-	(wire
-		(pts
 			(xy 196.85 81.28) (xy 198.12 81.28)
 		)
 		(stroke
@@ -1543,16 +1350,6 @@
 			(type default)
 		)
 		(uuid "70be1bed-3cf4-4d8b-a2c1-e7ef52875cfe")
-	)
-	(wire
-		(pts
-			(xy 257.81 68.58) (xy 257.81 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "742c2e09-4ca4-4981-a053-514b20cc6df2")
 	)
 	(wire
 		(pts
@@ -1686,16 +1483,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 68.58) (xy 257.81 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8f1c147-181e-4ba1-b6e6-a69bd6082807")
-	)
-	(wire
-		(pts
 			(xy 171.45 96.52) (xy 171.45 127)
 		)
 		(stroke
@@ -1723,16 +1510,6 @@
 			(type default)
 		)
 		(uuid "b1afeaa9-68b7-426d-b8fe-7124055a7731")
-	)
-	(wire
-		(pts
-			(xy 233.68 91.44) (xy 257.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2867937-a9a8-4b59-80c1-1c4856911bba")
 	)
 	(wire
 		(pts
@@ -1803,16 +1580,6 @@
 			(type default)
 		)
 		(uuid "cd9b1430-f91f-4034-ad0d-8136b48543aa")
-	)
-	(wire
-		(pts
-			(xy 233.68 127) (xy 257.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0a36ded-3213-4eb5-81fe-a68bd6d2c069")
 	)
 	(wire
 		(pts
@@ -1985,18 +1752,6 @@
 		(uuid "fcab1e89-4587-4398-8fa9-da9935502046")
 	)
 	(rectangle
-		(start 252.73 69.85)
-		(end 266.7 111.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4a529fae-e4a4-4d71-9c0c-1dde97cec2f5)
-	)
-	(rectangle
 		(start 79.375 72.39)
 		(end 187.325 120.65)
 		(stroke
@@ -2040,7 +1795,7 @@
 		)
 		(uuid "8c7efafe-2b1b-48ba-92c5-c11b7919680a")
 	)
-	(text "Low Frequency Caps"
+	(text "Medium Frequency Caps"
 		(exclude_from_sim no)
 		(at 64.77 71.374 0)
 		(effects
@@ -2049,16 +1804,6 @@
 			)
 		)
 		(uuid "9ab10d86-95fa-4d7a-b64a-7653716b9ad8")
-	)
-	(text "Flyback Diodes"
-		(exclude_from_sim no)
-		(at 259.588 67.818 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c31dcfd2-1cf1-462b-9fea-79f4015fa927")
 	)
 	(hierarchical_label "HIGH"
 		(shape input)
@@ -2074,7 +1819,7 @@
 	)
 	(hierarchical_label "PHASE"
 		(shape bidirectional)
-		(at 267.97 91.44 0)
+		(at 238.76 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2185,7 +1930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 137.16 93.9799 0)
 			(effects
 				(font
@@ -2707,7 +2452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 175.26 93.9799 0)
 			(effects
 				(font
@@ -2794,216 +2539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 257.81 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fb2bfbb-b4ee-401c-83bc-cd569e772c4d")
-		(property "Reference" "D6"
-			(at 260.35 97.4724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".85V"
-			(at 260.35 100.0124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "3A"
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SS310"
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9f9d87ed-a7e0-492e-94dd-b354f342559d")
-		)
-		(pin "1"
-			(uuid "ede5d7a9-006f-42ca-87af-43468ba7befd")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 257.81 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e932ff2-f24e-4e8e-8006-d3723c6e30d6")
-		(property "Reference" "D5"
-			(at 260.35 80.9624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".85V"
-			(at 260.35 83.5024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 257.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 257.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "3A"
-			(at 257.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SS310"
-			(at 257.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 257.81 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b699365-ba62-4582-aa01-0852f81cabcb")
-		)
-		(pin "1"
-			(uuid "9548236d-696f-42ad-b706-165c437c2008")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/07d8e3c8-2c5e-419f-819c-6988329b3b9b"
-					(reference "D5")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/4edcb8de-5dec-41d2-8d5a-0d6ba6532a85"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1/9c8d7367-e82c-4c6d-94fe-186e886bc1c0"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 146.05 92.71 0)
 		(unit 1)
@@ -3021,7 +2556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 149.606 93.98 0)
 			(effects
 				(font
@@ -3126,7 +2661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 124.46 93.9799 0)
 			(effects
 				(font
@@ -3231,7 +2766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 60.96 93.9799 0)
 			(effects
 				(font
@@ -3276,7 +2811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FS32X475K101EGG"
+		(property "Manufacturer_Part_Number" ""
 			(at 57.15 92.71 0)
 			(effects
 				(font
@@ -3336,7 +2871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 86.36 93.9799 0)
 			(effects
 				(font
@@ -3552,7 +3087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 73.66 93.9799 0)
 			(effects
 				(font
@@ -3597,7 +3132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FS32X475K101EGG"
+		(property "Manufacturer_Part_Number" ""
 			(at 69.85 92.71 0)
 			(effects
 				(font
@@ -3753,7 +3288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 111.76 93.9799 0)
 			(effects
 				(font
@@ -3857,7 +3392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 187.706 93.98 0)
 			(effects
 				(font
@@ -4154,7 +3689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 99.06 93.9799 0)
 			(effects
 				(font
@@ -4259,7 +3794,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "100nF"
 			(at 162.56 93.9799 0)
 			(effects
 				(font

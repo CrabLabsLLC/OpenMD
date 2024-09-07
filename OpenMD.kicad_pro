@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1016,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2032
+          "min_clearance": 0.1524
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "drill_out_of_range|115296000|104265000|b489da7e-0e4a-4f36-bad4-31a8a0d250f5|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|115296000|106175000|8e5018fc-98d9-4a4c-bed5-2c446e6a7624|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|116596000|104265000|9754d978-8f02-430f-9cab-d7f21fffff99|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|116596000|106175000|bea1ba27-6b61-4a7f-a3b6-c2fd58cd891c|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|117896000|104265000|c480b15f-9d08-46fc-9ea1-519acf41a67e|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|117896000|106175000|98d564d0-c089-402c-9c4f-9a645dfbb135|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -725,7 +732,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "docs/",
+    "plot_directory": "docs/Schematic.pdf",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
