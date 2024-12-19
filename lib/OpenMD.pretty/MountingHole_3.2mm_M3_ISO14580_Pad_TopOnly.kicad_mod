@@ -1,0 +1,159 @@
+(footprint "MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, M3, ISO14580")
+	(tags "mounting hole 3.2mm m3 iso14580")
+	(property "Reference" "REF**"
+		(at 0 -3.75 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88dcbf7c-b70e-4531-99f1-e86f515216f0")
+		(effects
+			(font
+				(size 0.6096 0.6096)
+				(thickness 0.1016)
+				(italic yes)
+			)
+		)
+	)
+	(property "Value" "M3"
+		(at 0 3.75 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de21bb89-33e7-4358-a6a3-43dbdc708560")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5b02958-4f7e-47d6-8053-3dce4b7cacb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86fc1995-e5c6-43da-92de-d1d5bd8dc133")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16b4d409-a9af-445a-aeb7-44447e369ec3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1805e5d2-ab0e-426a-83fa-fa6e585e1428")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Source" "N/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04ac3bbb-2dd1-4558-a136-445637ad8aea")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "N/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "200b2f5a-ff0e-4d6e-9d8a-476f556d989d")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.75 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "15644669-9157-4d67-bec2-3ceeeff6927c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e4e28cf3-1366-49d8-970a-001ccd517407")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 360)
+		(layer "F.Fab")
+		(uuid "193ee22d-54f8-49ed-b488-fd0bbdb667b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 180)
+		(size 3.6 3.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ccea5fd3-cde5-4b8f-8022-8e1be94636c6")
+	)
+	(pad "1" connect circle
+		(at 0 0 180)
+		(size 5.5 5.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b41cd65f-8cfc-4120-ad7d-e794ac5c2d6d")
+	)
+)

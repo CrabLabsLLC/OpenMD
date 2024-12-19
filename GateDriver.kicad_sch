@@ -6,14 +6,14 @@
 	(paper "A5")
 	(title_block
 		(title "Gate Driver")
-		(date "2024-05-19")
-		(rev "1")
+		(date "2024-12-19")
+		(rev "1.1")
 		(company "Crab Labs")
 		(comment 1 "Author: Orion Serup")
 		(comment 2 "License: CERN-OHL-W-2.0")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "OpenMD:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -149,7 +149,7 @@
 				)
 			)
 		)
-		(symbol "Device:D_TVS_Small"
+		(symbol "OpenMD:D_TVS_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -294,7 +294,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_US"
+		(symbol "OpenMD:R_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -464,7 +464,7 @@
 				)
 			)
 		)
-		(symbol "uP1996:UP1966E"
+		(symbol "OpenMD:UP1966E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1456,7 +1456,7 @@
 		(uuid "ee800c4d-1830-43a8-936f-d438316c2f75")
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Small")
+		(lib_id "OpenMD:D_TVS_Small")
 		(at 57.15 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1483,7 +1483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "OpenMD:D_0402_1005Metric"
 			(at 57.15 52.07 0)
 			(effects
 				(font
@@ -1561,7 +1561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 176.53 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1585,7 +1585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 175.5648 62.23 0)
 			(effects
 				(font
@@ -1663,7 +1663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Small")
+		(lib_id "OpenMD:D_TVS_Small")
 		(at 43.18 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1690,7 +1690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "OpenMD:D_0402_1005Metric"
 			(at 43.18 52.07 0)
 			(effects
 				(font
@@ -1768,7 +1768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "OpenMD:R_US")
 		(at 81.28 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1792,7 +1792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "OpenMD:R_0402_1005Metric"
 			(at 81.026 64.516 90)
 			(effects
 				(font
@@ -1870,7 +1870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "uP1996:UP1966E")
+		(lib_id "OpenMD:UP1966E")
 		(at 92.71 73.66 0)
 		(mirror x)
 		(unit 1)
@@ -2005,7 +2005,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 58.42 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2032,7 +2032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 59.3852 76.2 0)
 			(effects
 				(font
@@ -2110,7 +2110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "OpenMD:R_US")
 		(at 82.55 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2134,7 +2134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "OpenMD:R_0402_1005Metric"
 			(at 82.804 72.644 90)
 			(effects
 				(font
@@ -2212,7 +2212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "OpenMD:R_US")
 		(at 143.51 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2236,7 +2236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "OpenMD:R_0402_1005Metric"
 			(at 143.764 65.024 90)
 			(effects
 				(font
@@ -2314,7 +2314,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 44.45 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2341,7 +2341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 45.4152 76.2 0)
 			(effects
 				(font
@@ -2419,7 +2419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "OpenMD:R_US")
 		(at 146.05 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2443,7 +2443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "OpenMD:R_0402_1005Metric"
 			(at 146.304 67.564 90)
 			(effects
 				(font

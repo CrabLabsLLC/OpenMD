@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "J6"
-		(at -6.35 0 0)
+	(property "Reference" "REF**"
+		(at -6.35 0 180)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b098850a-3a07-46dc-abbf-12a54b9dd8d0")
+		(uuid "bb106839-b1f1-4210-82e5-f5940d6553e9")
 		(effects
 			(font
 				(size 0.6096 0.6096)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "B"
-		(at 3.25 25.75 -90)
+	(property "Value" "A"
+		(at -0.25 0.75 90)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a4c60bc0-b33d-449a-8886-979614c8ffe8")
+		(uuid "ef11e1d7-967b-4a3f-96ed-104bd91a10e3")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -29,11 +29,11 @@
 		)
 	)
 	(property "Footprint" "OpenMD:DIP-4_252"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d0c75bec-c93c-4f20-a39c-6ab54b2b0254")
+		(uuid "04507bdb-3b53-4834-8a94-f246b42c92a4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,11 +42,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c13a5a65-57de-4175-8d17-ca1726bfde5c")
+		(uuid "0a4f290b-abf9-473e-8dae-889c35bb510f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,11 +55,11 @@
 		)
 	)
 	(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "843839f2-bdea-49bf-af2f-e8b262275f54")
+		(uuid "d54f656b-512f-4898-a58a-40aaf7117df6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,11 +68,11 @@
 		)
 	)
 	(property "Rating" "80A"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fbacac6d-12cf-4616-924c-d478a4e9d99e")
+		(uuid "570cff93-678b-4c68-92ca-8010c7e7e029")
 		(effects
 			(font
 				(size 0.6096 0.6096)
@@ -81,11 +81,11 @@
 		)
 	)
 	(property "Source" "Digikey"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1386e751-6046-4eae-832a-1a7d10138570")
+		(uuid "4e4a077f-d989-4ee0-8039-48812c630d9c")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -94,11 +94,11 @@
 		)
 	)
 	(property "Manufacturer_Part_Number" "AMT0440005TH0000G"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "243adfa9-3ac9-4d86-a947-41755f4339e2")
+		(uuid "a0fe76bd-e482-4f1d-bd5a-d4bb6399eadd")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -108,24 +108,14 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -7 -1)
-		(end -7 1)
+		(start 6.75 1)
+		(end 6.75 -1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "91cdad6e-a9d2-4c1f-aa0e-c7fcfc2ac7af")
-	)
-	(fp_line
-		(start -3 -1)
-		(end -3 1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "db3a429a-9f3e-4437-a6fa-665775195209")
+		(uuid "9b658f5f-b3a2-4948-9f0d-04e3b1a16c89")
 	)
 	(fp_line
 		(start 3 -1)
@@ -135,71 +125,81 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "190d08f6-519f-437d-b0a6-9f95c3b987b1")
+		(uuid "bc5ff3ed-efd2-4455-81d5-b81c68a5c838")
 	)
 	(fp_line
-		(start 6.75 1)
-		(end 6.75 -1)
+		(start -3 -1)
+		(end -3 1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9f27d0ae-bdaa-44e5-9e20-d0716511058f")
+		(uuid "78d67f09-b847-4c6a-bd85-6b24c2e58306")
+	)
+	(fp_line
+		(start -7 -1)
+		(end -7 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76c00357-b962-4f08-839d-0ab412bc4a8b")
 	)
 	(fp_rect
-		(start -7.25 -6.5)
-		(end 7.25 6.5)
+		(start 7.25 6.5)
+		(end -7.25 -6.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "9d882851-668b-427a-a5b6-a82f4b1dbe6b")
+		(uuid "d79b432f-3ee0-4c80-a2ab-090dbf24d6eb")
 	)
 	(fp_rect
-		(start -6 -6.5)
-		(end 6 6.5)
+		(start 6 6.5)
+		(end -6 -6.5)
 		(stroke
 			(width 0.0508)
 			(type default)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "ebc63589-f39a-43fc-ab57-688e091b5acb")
+		(uuid "4ce3a335-b490-4289-9318-aaa1236f1942")
 	)
 	(pad "1" thru_hole oval
-		(at -4.9 -3.2 90)
+		(at -4.9 -3.2 270)
 		(size 6 4)
 		(drill oval 3.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "102a8f9b-a6e0-4b13-abd4-48feac1e8846")
+		(uuid "f51e1190-589d-4d57-aedc-e044ac526ceb")
 	)
 	(pad "1" thru_hole oval
-		(at -4.9 3.2 90)
+		(at -4.9 3.2 270)
 		(size 6 4)
 		(drill oval 3.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ff4b9f73-9654-44fd-8dc8-1a67126be21d")
+		(uuid "bd34c23c-abd5-48d9-92ab-5bb29cae6432")
 	)
 	(pad "1" thru_hole oval
-		(at 4.8 -3.2 90)
+		(at 4.8 -3.2 270)
 		(size 6 4)
 		(drill oval 3.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e94dfc6b-4645-4f83-9f99-8c432a8ea32a")
+		(uuid "51184e49-6dc4-4374-92fc-8b6ee077fc7e")
 	)
 	(pad "1" thru_hole oval
-		(at 4.8 3.2 90)
+		(at 4.8 3.2 270)
 		(size 6 4)
 		(drill oval 3.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "89a77162-ff28-42b8-ba2e-3017c10c1245")
+		(uuid "afc7decb-5c51-4929-b78d-4210a445af00")
 	)
 	(model "${KIPRJMOD}/lib/models/ScrewMount-Body.step"
 		(offset
