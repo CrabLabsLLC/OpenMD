@@ -58,14 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "drill_out_of_range|115296000|104265000|b489da7e-0e4a-4f36-bad4-31a8a0d250f5|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|115296000|106175000|8e5018fc-98d9-4a4c-bed5-2c446e6a7624|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|116596000|104265000|9754d978-8f02-430f-9cab-d7f21fffff99|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|116596000|106175000|bea1ba27-6b61-4a7f-a3b6-c2fd58cd891c|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|117896000|104265000|c480b15f-9d08-46fc-9ea1-519acf41a67e|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|117896000|106175000|98d564d0-c089-402c-9c4f-9a645dfbb135|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -100,7 +93,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "ignore",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -134,7 +127,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.3048,
         "min_text_thickness": 0.0762,
-        "min_through_hole_diameter": 0.2032,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.4064,
@@ -580,6 +573,7 @@
       "/SW{PHASES}": "High Power",
       "/V_{BATT}": "High Power",
       "/V_{DRV}": "Power",
+      "/V_{MOTOR}": "High Power",
       "/{PHASES}": "High Power",
       "unconnected-(J6-Pin_1-Pad1)": "High Power",
       "unconnected-(J7-Pin_1-Pad1)": "High Power"
@@ -643,13 +637,13 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Rating",
           "name": "Rating",
           "show": true
@@ -667,7 +661,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MPN",
           "name": "Manufacturer_Part_Number",
           "show": true
@@ -701,7 +695,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${DNP}"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -732,7 +726,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "docs/Schematic.pdf",
+    "plot_directory": "docs/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

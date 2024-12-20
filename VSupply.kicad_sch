@@ -6,14 +6,14 @@
 	(paper "A5")
 	(title_block
 		(title "Gate Driver Voltage Supply")
-		(date "2024-05-19")
-		(rev "1")
+		(date "2024-12-19")
+		(rev "1.1")
 		(company "Crab Labs")
 		(comment 1 "Author: Orion Serup")
 		(comment 2 "License: CERN-OHL-W-2.0")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "OpenMD:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -149,7 +149,7 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
+		(symbol "OpenMD:C_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -284,7 +284,7 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener_Filled"
+		(symbol "OpenMD:D_Zener_Filled"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -429,7 +429,7 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "OpenMD:L"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -586,140 +586,7 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Switching:LM5164DDA"
+		(symbol "OpenMD:LM5164DDA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -951,6 +818,139 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OpenMD:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1810,7 +1810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "OpenMD:C_Small")
 		(at 123.19 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1837,7 +1837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -1880,7 +1880,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "OpenMD:C_Small")
 		(at 140.97 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -1907,7 +1907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 140.97 63.5 0)
 			(effects
 				(font
@@ -1950,7 +1950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "OpenMD:L")
 		(at 105.41 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1974,7 +1974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Abracon_ASPI-4030S"
+		(property "Footprint" "OpenMD:L_Abracon_ASPI-4030S"
 			(at 105.41 57.15 0)
 			(effects
 				(font
@@ -2044,7 +2044,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 157.48 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2070,7 +2070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 158.4452 67.31 0)
 			(effects
 				(font
@@ -2140,7 +2140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "OpenMD:C_Small")
 		(at 91.44 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2166,7 +2166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 91.44 54.61 0)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 46.99 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2236,7 +2236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "OpenMD:C_0603_1608Metric"
 			(at 47.9552 63.5 0)
 			(effects
 				(font
@@ -2306,7 +2306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Filled")
+		(lib_id "OpenMD:D_Zener_Filled")
 		(at 179.07 60.96 90)
 		(mirror x)
 		(unit 1)
@@ -2333,7 +2333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
+		(property "Footprint" "OpenMD:D_SOD-882"
 			(at 179.07 60.96 0)
 			(effects
 				(font
@@ -2403,7 +2403,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:LM5164DDA")
+		(lib_id "OpenMD:LM5164DDA")
 		(at 74.93 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2428,7 +2428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
+		(property "Footprint" "OpenMD:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
 			(at 76.2 71.12 0)
 			(effects
 				(font
@@ -2492,7 +2492,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 36.83 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2519,7 +2519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 37.7952 66.04 0)
 			(effects
 				(font
@@ -2589,7 +2589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "OpenMD:R_Small_US")
 		(at 60.96 69.85 0)
 		(mirror y)
 		(unit 1)
@@ -2616,7 +2616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "OpenMD:R_0402_1005Metric"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -2659,7 +2659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Filled")
+		(lib_id "OpenMD:D_Zener_Filled")
 		(at 29.21 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2685,7 +2685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "OpenMD:D_SOD-123F"
 			(at 29.21 60.96 0)
 			(effects
 				(font
@@ -2755,7 +2755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "OpenMD:R_Small_US")
 		(at 111.76 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2782,7 +2782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "OpenMD:R_0402_1005Metric"
 			(at 111.76 69.85 0)
 			(effects
 				(font
@@ -2825,7 +2825,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "OpenMD:R_Small_US")
 		(at 111.76 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2852,7 +2852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "OpenMD:R_0402_1005Metric"
 			(at 111.76 59.69 0)
 			(effects
 				(font
@@ -2895,7 +2895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 168.91 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2922,7 +2922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 169.8752 67.31 0)
 			(effects
 				(font
@@ -2992,7 +2992,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 152.4 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -3020,7 +3020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "OpenMD:C_0402_1005Metric"
 			(at 151.4348 67.31 0)
 			(effects
 				(font

@@ -6,14 +6,14 @@
 	(paper "A4")
 	(title_block
 		(title "Phase Drivers")
-		(date "2024-05-19")
-		(rev "1")
+		(date "2024-12-19")
+		(rev "1.1")
 		(company "Crab Labs")
 		(comment 1 "Author: Orion Serup")
 		(comment 2 "License: CERN-OHL-W-2.0")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "OpenMD:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -184,6 +184,12 @@
 		(uuid "115016de-af11-4698-b91a-d98b86bbb8aa")
 	)
 	(junction
+		(at 91.44 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11dfd9a3-c9d4-4f62-bec6-e121ba3af19f")
+	)
+	(junction
 		(at 142.24 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -226,6 +232,18 @@
 		(uuid "2c9fa10b-1a44-4ff6-822b-f995fe4dfc3b")
 	)
 	(junction
+		(at 142.24 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eeb5751-119e-4335-8230-692c7c586d49")
+	)
+	(junction
+		(at 154.94 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f9f564b-b0ea-4c02-bcee-d3ddd258dda3")
+	)
+	(junction
 		(at 68.58 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -260,6 +278,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f41bbc5-c2b7-4bb4-9d9d-4f7f8abd4830")
+	)
+	(junction
+		(at 67.31 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4137bfb0-30a5-4c6c-ae5e-062d2cb59d75")
 	)
 	(junction
 		(at 92.71 57.15)
@@ -400,10 +424,22 @@
 		(uuid "91602953-4085-478a-a44c-da113220f8c2")
 	)
 	(junction
+		(at 167.64 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "937fc68f-56f9-4908-ba00-b130d0f7d1cf")
+	)
+	(junction
 		(at 154.94 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9449208e-7ca0-4c9f-8c3f-967d4e2c6c49")
+	)
+	(junction
+		(at 78.74 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b59e7e1-69f9-492c-9cfc-c823cf280463")
 	)
 	(junction
 		(at 118.11 82.55)
@@ -416,6 +452,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a674e406-1f98-40c8-b7ab-ad39fc8ecc75")
+	)
+	(junction
+		(at 78.74 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaa40a7d-d382-4e0e-9ac8-051e47dbc3e2")
 	)
 	(junction
 		(at 118.11 77.47)
@@ -490,6 +532,12 @@
 		(uuid "d0891bbd-1ca5-44ea-b124-96a366696d27")
 	)
 	(junction
+		(at 54.61 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5232c5-34fb-4818-8deb-15f4ff6a9599")
+	)
+	(junction
 		(at 92.71 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -506,6 +554,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5c740d0-bf81-450b-bbec-c3ae0c70ed67")
+	)
+	(junction
+		(at 67.31 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5f49e4f-8b51-49f0-99c2-f283351656d3")
 	)
 	(junction
 		(at 80.01 31.75)
@@ -710,6 +764,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 130.81) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127c1b17-4647-40c4-8b3d-ab7dde432313")
+	)
+	(wire
+		(pts
 			(xy 55.88 31.75) (xy 68.58 31.75)
 		)
 		(stroke
@@ -720,7 +784,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 130.81) (xy 91.44 130.81)
+			(xy 50.8 130.81) (xy 54.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -850,6 +914,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 110.49) (xy 78.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f3343c-a892-4f33-8314-4a9525496ee3")
+	)
+	(wire
+		(pts
 			(xy 154.94 31.75) (xy 167.64 31.75)
 		)
 		(stroke
@@ -907,6 +981,26 @@
 			(type default)
 		)
 		(uuid "27061b85-87b9-400b-8821-a67531472fc2")
+	)
+	(wire
+		(pts
+			(xy 142.24 158.75) (xy 153.67 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272bb0fa-745c-4e38-a21f-41db19833d38")
+	)
+	(wire
+		(pts
+			(xy 154.94 152.4) (xy 154.94 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2754245d-7d6e-4cab-a9c9-14d8c0a367a8")
 	)
 	(wire
 		(pts
@@ -1080,6 +1174,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 110.49) (xy 67.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cbb9b4-8c13-461c-af81-4fd5a8917e9a")
+	)
+	(wire
+		(pts
+			(xy 142.24 138.43) (xy 142.24 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4313e76a-34e9-4e09-a10a-36d9176cee57")
+	)
+	(wire
+		(pts
 			(xy 187.96 34.29) (xy 187.96 52.07)
 		)
 		(stroke
@@ -1100,6 +1214,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 158.75) (xy 142.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a8c20b-dc84-4273-9df4-4487db102cb8")
+	)
+	(wire
+		(pts
 			(xy 55.88 71.12) (xy 55.88 77.47)
 		)
 		(stroke
@@ -1107,6 +1231,16 @@
 			(type default)
 		)
 		(uuid "4c7d0510-d912-4a98-b680-88251e8d4ec1")
+	)
+	(wire
+		(pts
+			(xy 54.61 124.46) (xy 54.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eac6688-cc50-4c3f-8fcb-18c68bb8d258")
 	)
 	(wire
 		(pts
@@ -1257,6 +1391,16 @@
 			(type default)
 		)
 		(uuid "63970731-b2bf-46a2-86e5-f8057b65006d")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660e28b4-71f8-4b2e-95e0-7815aad8cda7")
 	)
 	(wire
 		(pts
@@ -1700,6 +1844,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 124.46) (xy 67.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9749f8c3-98e0-451d-bdf5-22d690ec1629")
+	)
+	(wire
+		(pts
 			(xy 81.28 96.52) (xy 81.28 102.87)
 		)
 		(stroke
@@ -1770,6 +1924,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 110.49) (xy 54.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e3a4b1-86b7-4e0b-989d-d540aa91f130")
+	)
+	(wire
+		(pts
+			(xy 154.94 138.43) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7aaa36b-c1f2-40f2-8423-f56128a5a186")
+	)
+	(wire
+		(pts
 			(xy 153.67 110.49) (xy 153.67 116.84)
 		)
 		(stroke
@@ -1797,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "a9be67a8-8998-468a-aec1-eb834581ebef")
+	)
+	(wire
+		(pts
+			(xy 153.67 158.75) (xy 154.94 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa52fb74-4ce0-490b-b354-4a1867f11426")
 	)
 	(wire
 		(pts
@@ -1830,6 +2014,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 130.81) (xy 67.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b031aec6-2835-4a44-bcf0-58abe97bba25")
+	)
+	(wire
+		(pts
 			(xy 154.94 31.75) (xy 154.94 38.1)
 		)
 		(stroke
@@ -1840,6 +2034,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 107.95) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f204b6-3437-466c-a625-43663aa55b9a")
+	)
+	(wire
+		(pts
 			(xy 118.11 96.52) (xy 118.11 102.87)
 		)
 		(stroke
@@ -1847,6 +2051,16 @@
 			(type default)
 		)
 		(uuid "b5a8e80d-60a4-4cfb-81f9-274758857dc2")
+	)
+	(wire
+		(pts
+			(xy 167.64 137.16) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5eaa7b9-7138-4578-b27d-246275e2dc25")
 	)
 	(wire
 		(pts
@@ -1867,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "b8acf869-5f0a-4794-a4f6-16e9a71df979")
+	)
+	(wire
+		(pts
+			(xy 67.31 130.81) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bdee1d-3009-4906-bddf-1f3fe7ba816b")
 	)
 	(wire
 		(pts
@@ -1897,6 +2121,16 @@
 			(type default)
 		)
 		(uuid "babd8fb9-2700-4aeb-9fd8-94df520a8940")
+	)
+	(wire
+		(pts
+			(xy 142.24 152.4) (xy 142.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfb6ac9-164e-428d-b52a-c08005282273")
 	)
 	(wire
 		(pts
@@ -1967,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "c4b55018-7b87-4250-9d8e-2f69c832a197")
+	)
+	(wire
+		(pts
+			(xy 78.74 124.46) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dfdc5e-cb34-46d1-b22f-b1f75c7651dd")
 	)
 	(wire
 		(pts
@@ -2080,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 110.49) (xy 67.31 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20143e8-9738-4ed2-a8d9-ae0e007386d9")
+	)
+	(wire
+		(pts
 			(xy 80.01 45.72) (xy 80.01 52.07)
 		)
 		(stroke
@@ -2140,6 +2394,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 138.43) (xy 154.94 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d7090f-87ec-4c6d-ab90-ee2b8aa62f9e")
+	)
+	(wire
+		(pts
 			(xy 81.28 82.55) (xy 81.28 88.9)
 		)
 		(stroke
@@ -2187,6 +2451,16 @@
 			(type default)
 		)
 		(uuid "e122448c-2333-43cd-9c34-e2328047a913")
+	)
+	(wire
+		(pts
+			(xy 142.24 138.43) (xy 154.94 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e259c275-748a-4f91-8115-284057bddaf8")
 	)
 	(wire
 		(pts
@@ -2290,6 +2564,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 110.49) (xy 78.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fb118a-3fcf-4077-b899-d6ffa3023df9")
+	)
+	(wire
+		(pts
 			(xy 129.54 52.07) (xy 142.24 52.07)
 		)
 		(stroke
@@ -2340,6 +2624,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 110.49) (xy 55.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcee958d-90c3-448a-9d05-ea1d08e54e2b")
+	)
+	(wire
+		(pts
 			(xy 105.41 71.12) (xy 105.41 77.47)
 		)
 		(stroke
@@ -2360,7 +2654,7 @@
 	)
 	(rectangle
 		(start 33.02 21.59)
-		(end 165.735 154.305)
+		(end 165.735 169.545)
 		(stroke
 			(width 0)
 			(type default)
@@ -2553,6 +2847,18 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
+		(at 137.16 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bce5fa1-bd5f-490e-9026-540440e79b3b")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
 		(at 195.58 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2565,7 +2871,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 86.36 130.81 180)
+		(at 50.8 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2586,18 +2892,6 @@
 			(justify right)
 		)
 		(uuid "9d833a6e-8173-4b3b-8966-a7e182664708")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 86.36 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac72ecf1-973b-4782-a9e7-28500c129ba2")
 	)
 	(hierarchical_label "{GATES}"
 		(shape input)
@@ -2636,7 +2930,7 @@
 		(uuid "f049433c-9843-4cb5-ba74-a4c0332308e2")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 130.81 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2663,7 +2957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 131.7752 96.52 0)
 			(effects
 				(font
@@ -2733,7 +3027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 104.14 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2760,7 +3054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 105.1052 124.46 0)
 			(effects
 				(font
@@ -2830,7 +3124,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 55.88 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2857,7 +3151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 56.8452 45.72 0)
 			(effects
 				(font
@@ -2927,7 +3221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 105.41 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2954,7 +3248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 106.3752 71.12 0)
 			(effects
 				(font
@@ -3024,7 +3318,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 105.41 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3051,7 +3345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 106.3752 96.52 0)
 			(effects
 				(font
@@ -3121,7 +3415,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 91.44 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3148,7 +3442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 92.4052 124.46 0)
 			(effects
 				(font
@@ -3218,7 +3512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 92.71 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3245,7 +3539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 93.6752 71.12 0)
 			(effects
 				(font
@@ -3315,7 +3609,104 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
+		(at 54.61 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21a7ea18-dd8a-45d0-854e-baac1d556ef9")
+		(property "Reference" "C104"
+			(at 58.42 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 58.42 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
+			(at 55.5752 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X475K101EGG"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "879540cc-f152-4d94-a0cd-43c3891388d7")
+		)
+		(pin "1"
+			(uuid "620b9739-1c15-4a78-9ec0-7611e5e80d53")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenMD:C")
 		(at 142.24 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3342,7 +3733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 143.2052 71.12 0)
 			(effects
 				(font
@@ -3412,7 +3803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 118.11 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3439,7 +3830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 119.0752 71.12 0)
 			(effects
 				(font
@@ -3509,7 +3900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 92.71 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3536,7 +3927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 93.6752 45.72 0)
 			(effects
 				(font
@@ -3606,7 +3997,104 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
+		(at 142.24 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dfa1222-e1d6-49d0-bfa5-3517d951d581")
+		(property "Reference" "C105"
+			(at 146.05 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 146.05 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
+			(at 143.2052 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X475K101EGG"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9549a79b-9501-4f26-aa42-809c357779b8")
+		)
+		(pin "1"
+			(uuid "6fb4c86d-fa46-44a7-a726-132bd082ef52")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenMD:C")
 		(at 80.01 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3633,7 +4121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 80.9752 45.72 0)
 			(effects
 				(font
@@ -3703,7 +4191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 129.54 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3730,7 +4218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 130.5052 71.12 0)
 			(effects
 				(font
@@ -3800,7 +4288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 55.88 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3827,7 +4315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 56.8452 71.12 0)
 			(effects
 				(font
@@ -3897,7 +4385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 116.84 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3924,7 +4412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 117.8052 124.46 0)
 			(effects
 				(font
@@ -3994,7 +4482,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 142.24 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4021,7 +4509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 143.2052 96.52 0)
 			(effects
 				(font
@@ -4091,7 +4579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 118.11 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4118,7 +4606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 119.0752 96.52 0)
 			(effects
 				(font
@@ -4188,7 +4676,104 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
+		(at 154.94 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71856081-c658-4fca-b604-37cb5ecfe48d")
+		(property "Reference" "C106"
+			(at 158.75 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 158.75 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
+			(at 155.9052 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X475K101EGG"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e69b7af-e899-4c87-8a88-41f055103980")
+		)
+		(pin "1"
+			(uuid "bbb0f169-a333-4577-b186-017b78f4e0f3")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1"
+					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenMD:C")
 		(at 81.28 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4215,7 +4800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 82.2452 96.52 0)
 			(effects
 				(font
@@ -4285,7 +4870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 129.54 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4312,7 +4897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 130.5052 124.46 0)
 			(effects
 				(font
@@ -4382,7 +4967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 105.41 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4409,7 +4994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 106.3752 45.72 0)
 			(effects
 				(font
@@ -4479,7 +5064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 153.67 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4506,7 +5091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 154.6352 124.46 0)
 			(effects
 				(font
@@ -4576,7 +5161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 68.58 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4603,7 +5188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 69.5452 45.72 0)
 			(effects
 				(font
@@ -4673,7 +5258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 68.58 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4700,7 +5285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 69.5452 71.12 0)
 			(effects
 				(font
@@ -4770,7 +5355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 154.94 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4797,7 +5382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 155.9052 71.12 0)
 			(effects
 				(font
@@ -4867,7 +5452,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 129.54 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4894,7 +5479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 130.5052 45.72 0)
 			(effects
 				(font
@@ -4964,7 +5549,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 154.94 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4991,7 +5576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 155.9052 96.52 0)
 			(effects
 				(font
@@ -5061,7 +5646,104 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
+		(at 78.74 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abe6bf37-8703-4ac1-a52c-b42b46b0ead5")
+		(property "Reference" "C108"
+			(at 82.55 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 82.55 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
+			(at 79.7052 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X475K101EGG"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea537b89-b555-44cf-968c-f939d58ed0b1")
+		)
+		(pin "1"
+			(uuid "3ff142ad-b6b4-4a03-9d0f-a4ac47f8222d")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1"
+					(reference "C108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenMD:C")
 		(at 80.01 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5088,7 +5770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 80.9752 71.12 0)
 			(effects
 				(font
@@ -5158,7 +5840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 57.15 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5185,7 +5867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 58.1152 96.52 0)
 			(effects
 				(font
@@ -5255,7 +5937,104 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
+		(at 67.31 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7854fd1-cfe1-4ad7-8927-e91ff984585a")
+		(property "Reference" "C107"
+			(at 71.12 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 71.12 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
+			(at 68.2752 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "100V"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FS32X475K101EGG"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "LCSC"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f569a6b4-8a89-444f-8679-eabdfb13481e")
+		)
+		(pin "1"
+			(uuid "66537a61-4d31-433c-8045-b2012994d4f3")
+		)
+		(instances
+			(project "OpenMD"
+				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/56ac34d7-bcb5-4125-ae37-005bc62df0f1"
+					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenMD:C")
 		(at 92.71 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5282,7 +6061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 93.6752 96.52 0)
 			(effects
 				(font
@@ -5352,7 +6131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 154.94 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5379,7 +6158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 155.9052 45.72 0)
 			(effects
 				(font
@@ -5449,7 +6228,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 118.11 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5476,7 +6255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 119.0752 45.72 0)
 			(effects
 				(font
@@ -5546,7 +6325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 142.24 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5573,7 +6352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 143.2052 45.72 0)
 			(effects
 				(font
@@ -5643,7 +6422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 140.97 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5670,7 +6449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 141.9352 124.46 0)
 			(effects
 				(font
@@ -5740,7 +6519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "OpenMD:C")
 		(at 68.58 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5767,7 +6546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "OpenMD:C_1210_3225Metric"
 			(at 69.5452 96.52 0)
 			(effects
 				(font

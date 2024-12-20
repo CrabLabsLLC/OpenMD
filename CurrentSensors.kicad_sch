@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Phase Current Sensors")
-		(date "2024-05-19")
-		(rev "1")
+		(date "2024-12-19")
+		(rev "1.1")
 		(company "Crab Labs")
 		(comment 1 "Author: Orion Serup")
 		(comment 2 "License: CERN-OHL-W-2.0")
