@@ -3225,7 +3225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5df006ae-1acc-441b-9c8b-42fdb3f5a1d7")
-		(property "Reference" "C118"
+		(property "Reference" "C120"
 			(at 72.39 91.4399 0)
 			(effects
 				(font
@@ -3746,7 +3746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2fe6fb5-7f7a-4bed-bffc-d8ec11606a66")
-		(property "Reference" "C121"
+		(property "Reference" "C123"
 			(at 60.96 91.4399 0)
 			(effects
 				(font
@@ -3954,7 +3954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7e2ec55-5886-41b4-b3d8-5abf42d67e8e")
-		(property "Reference" "C115"
+		(property "Reference" "C117"
 			(at 85.09 91.4399 0)
 			(effects
 				(font
@@ -4250,7 +4250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e093bfe8-dbf5-4850-a3a1-b88d74380670")
-		(property "Reference" "C109"
+		(property "Reference" "C111"
 			(at 109.22 91.4399 0)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb0f2289-ff76-49d9-826c-ca84b27de59a")
-		(property "Reference" "C112"
+		(property "Reference" "C114"
 			(at 96.52 91.4399 0)
 			(effects
 				(font

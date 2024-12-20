@@ -1258,7 +1258,7 @@
 		)
 		(uuid "fa2bb72f-aedc-40b1-bd36-8dbd89eaa870")
 	)
-	(text "Substitute withh UP1966 or AD8418, same Footprint\n"
+	(text "Substitute withh UP1966 or LT8418, same Footprint\n"
 		(exclude_from_sim no)
 		(at 109.982 44.958 0)
 		(effects
